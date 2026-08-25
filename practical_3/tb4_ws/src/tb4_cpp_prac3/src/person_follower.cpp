@@ -23,10 +23,10 @@ public:
       */
 
       // Declare parameters
-      this->declare_parameter<double>("following_distance", 1.0);
+      this->declare_parameter<double>("following_distance", 0.5);
       this->declare_parameter<float>("following_angle", 0);
-      this->declare_parameter<float>("angle_control_gain", 1.0);
-      this->declare_parameter<float>("distance_control_gain", 0.5);
+      this->declare_parameter<float>("angle_control_gain", 2.0);
+      this->declare_parameter<float>("distance_control_gain", 1);
       
       // Get parameter values
       this->get_parameter("following_distance", following_distance_);
@@ -71,9 +71,9 @@ private:
     Define all private element variables to store parameters. 
   */
   double following_distance_;
-  float following_angle_;
-  float angle_control_gain_;
-  float followindistance_control_gain_;
+  double following_angle_;
+  double angle_control_gain_;
+  double followindistance_control_gain_;
 
 
   // Define Dynamic parameters handler
@@ -91,6 +91,7 @@ private:
 
 void PersonFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr scan_msg)
 {
+  RCLCPP_INFO(this->get_logger(), "scan recieved");
   std::lock_guard<std::recursive_mutex> cfl(mutex_);
   /*TODO TASKS
 
@@ -107,13 +108,46 @@ void PersonFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr 
     the robot. 
   */
   // finds the minimum element in the ranges vector of the scan_msg. It returns an iterator (min_distance) pointing to the smallest value in the range.
-  auto min_distance = std::min_element(scan_msg->ranges.begin(), scan_msg->ranges.end());
+  auto min_distance = std::min_element(
+    scan_msg->ranges.begin(), scan_msg->ranges.end(),
+    [](float a, float b) {
+      bool a_valid = a >= 0.2f && std::isfinite(a);
+      bool b_valid = b >= 0.2f && std::isfinite(b);
+      if (!a_valid) return false;
+      if (!b_valid) return true;
+      return a < b;
+    }  
+);
   // Extracts the actual minimum value from the iterator obtained in the previous step.
   float min_value = *min_distance;
+  RCLCPP_INFO(this->get_logger(), "min value: %.2f", min_value);
   // Calculates the index of the minimum value in the ranges vector by finding the distance between the beginning of the vector and the iterator pointing to the minimum value.
   int min_index = std::distance(scan_msg->ranges.begin(), min_distance);
   // Calculate the angle corresponding to the index of the minimum value.
-  float min_angle = (min_index - 320)*2*PI/640.0;
+  float angle_L = scan_msg->angle_min + scan_msg->angle_increment * min_index;
+  float angle_R = angle_L + PI/2;
+  if(angle_R > PI)
+  {
+    angle_R -= 2*PI;
+  }
+  RCLCPP_INFO(this->get_logger(), "angle_R in PI: %.2f", angle_R/PI);
+
+  geometry_msgs::msg::Twist cmd_vel_msg;
+  // Checks if the minimum value detected by the LiDAR is less than 12 meters. If true, it proceeds to calculate control commands based on this information; otherwise, it handles the case where no object is detected.
+  if(min_value < 12)
+  {
+    // Assigns angular and linear velocities to the cmd_vel_msg based on proportional control using gains (angle_control_gain_ and following_distance_control_gain_).
+    cmd_vel_msg.angular.z = angle_control_gain_*(angle_R - following_angle_);
+    cmd_vel_msg.linear.x = followindistance_control_gain_*(min_value - following_distance_);
+    RCLCPP_INFO(this->get_logger(), "linear x: %.2f, angular z: %.2f", cmd_vel_msg.linear.x, cmd_vel_msg.angular.z);
+  }
+  else
+  {
+    RCLCPP_INFO(this->get_logger(), "No Object is Detected");
+    cmd_vel_msg.linear.x = 0.0;
+  }
+  // Publishes the computed velocity command (cmd_vel_msg) to control the robot’s movement.
+  cmd_vel_publisher_->publish(cmd_vel_msg);
 }
 
 rcl_interfaces::msg::SetParametersResult 
@@ -141,9 +175,9 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
       store the updated value to the class variables defined in TASK 1 (Milestone # 1.1)
       */
 
-    if (param_type == ParameterType::PARAMETER_FLOAT) {
+    if (param_type == ParameterType::PARAMETER_DOUBLE) {
       if (param_name == "following_angle") {
-        following_angle_ = parameter.as_float();
+        following_angle_ = parameter.as_double();
         if(abs(following_angle_)>PI/4)
         {
           RCLCPP_WARN(this->get_logger(), "You've set following_angle to be too high"
@@ -153,9 +187,9 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
       }
     }
 
-    if (param_type == ParameterType::PARAMETER_FLOAT) {
+    if (param_type == ParameterType::PARAMETER_DOUBLE) {
         if (param_name == "angle_control_gain") {
-          angle_control_gain_ = parameter.as_float();
+          angle_control_gain_ = parameter.as_double();
           if(angle_control_gain_<=0)
           {
             RCLCPP_WARN(this->get_logger(), "You've set angle_control_gain to be too low"
@@ -165,9 +199,9 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
         }
     }
 
-    if (param_type == ParameterType::PARAMETER_FLOAT) {
+    if (param_type == ParameterType::PARAMETER_DOUBLE) {
         if (param_name == "distance_control_gain") {
-          followindistance_control_gain_ = parameter.as_float();
+          followindistance_control_gain_ = parameter.as_double();
           if(followindistance_control_gain_<=0)
           {
             RCLCPP_WARN(this->get_logger(), "You've set distance_control_gain to be too low"

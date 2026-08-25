@@ -1,0 +1,22 @@
+[01m[K/home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter>)[m[K’:
+[01m[K/home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:170:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPARAMETER_FLOAT[m[K’ is not a member of ‘[01m[Krcl_interfaces::msg::ParameterType[m[K’ {aka ‘[01m[Krcl_interfaces::msg::ParameterType_<std::allocator<void> >[m[K’}
+  170 |     if (param_type == ParameterType::[01;31m[KPARAMETER_FLOAT[m[K) {
+      |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:172:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Parameter[m[K’ has no member named ‘[01m[Kas_float[m[K’
+  172 |         following_angle_ = parameter.[01;31m[Kas_float[m[K();
+      |                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:182:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPARAMETER_FLOAT[m[K’ is not a member of ‘[01m[Krcl_interfaces::msg::ParameterType[m[K’ {aka ‘[01m[Krcl_interfaces::msg::ParameterType_<std::allocator<void> >[m[K’}
+  182 |     if (param_type == ParameterType::[01;31m[KPARAMETER_FLOAT[m[K) {
+      |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:184:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Parameter[m[K’ has no member named ‘[01m[Kas_float[m[K’
+  184 |           angle_control_gain_ = parameter.[01;31m[Kas_float[m[K();
+      |                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:194:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPARAMETER_FLOAT[m[K’ is not a member of ‘[01m[Krcl_interfaces::msg::ParameterType[m[K’ {aka ‘[01m[Krcl_interfaces::msg::ParameterType_<std::allocator<void> >[m[K’}
+  194 |     if (param_type == ParameterType::[01;31m[KPARAMETER_FLOAT[m[K) {
+      |                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3/src/person_follower.cpp:196:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Parameter[m[K’ has no member named ‘[01m[Kas_float[m[K’
+  196 |           followindistance_control_gain_ = parameter.[01;31m[Kas_float[m[K();
+      |                                                      [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/person_follower.dir/build.make:76: CMakeFiles/person_follower.dir/src/person_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/person_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
