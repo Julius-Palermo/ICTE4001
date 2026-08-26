@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target wall_follower[0m
+[ 50%] Built target person_follower
+[ 75%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[100%] [32m[1mLinking CXX executable wall_follower[0m
+[100%] Built target wall_follower
+-- Install configuration: ""
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower
+-- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower
+-- Set runtime path of "/home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower" to ""
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller
+-- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.sh
+-- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.sh
+-- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.dsv
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.bash
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.sh
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.zsh
+-- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.dsv
+-- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/package.dsv
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/packages/robot_motion_controller
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig.cmake
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig-version.cmake
+-- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/package.xml

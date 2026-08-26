@@ -1,0 +1,16 @@
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/lib/tb4_cpp_prac2/tb4_arc_action
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac2
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac2
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/ament_prefix_path.sh
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/ament_prefix_path.dsv
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/path.sh
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/path.dsv
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.bash
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.sh
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.zsh
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.dsv
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/package.dsv
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/packages/tb4_cpp_prac2
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/cmake/tb4_cpp_prac2Config.cmake
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/cmake/tb4_cpp_prac2Config-version.cmake
+/home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/package.xml

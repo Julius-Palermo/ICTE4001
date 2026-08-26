@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/robotai/tut3_ws/build/diff_drive_robot_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut3_ws/src/diff_drive_robot_gz_sim -DCMAKE_INSTALL_PREFIX=/home/robotai/tut3_ws/install/diff_drive_robot_gz_sim
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.205s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.326s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.468s] -- Detecting CXX compile features
+[0.468s] -- Detecting CXX compile features - done
+[0.471s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.770s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.895s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.896s] -- Added test 'lint_cmake' to check CMake code style
+[0.897s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.899s] -- Added test 'xmllint' to check XML markup files
+[0.900s] -- Configuring done
+[0.904s] -- Generating done
+[0.906s] -- Build files have been written to: /home/robotai/tut3_ws/build/diff_drive_robot_gz_sim
+[0.914s] Invoked command in '/home/robotai/tut3_ws/build/diff_drive_robot_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut3_ws/src/diff_drive_robot_gz_sim -DCMAKE_INSTALL_PREFIX=/home/robotai/tut3_ws/install/diff_drive_robot_gz_sim
+[0.914s] Invoking command in '/home/robotai/tut3_ws/build/diff_drive_robot_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/diff_drive_robot_gz_sim -- -j4 -l4
+[0.973s] Invoked command in '/home/robotai/tut3_ws/build/diff_drive_robot_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/diff_drive_robot_gz_sim -- -j4 -l4
+[1.038s] Invoking command in '/home/robotai/tut3_ws/build/diff_drive_robot_gz_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/diff_drive_robot_gz_sim
+[1.049s] -- Install configuration: ""
+[1.049s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch
+[1.049s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/MRobot_base.launch.py
+[1.052s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/MRobot_control.launch.py
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/MRobot_sensor.launch.py
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//launch/ros_gz_bridge.launch.py
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//config
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//config/mobile_base_control.yaml
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf/ICTE4001_MRobot_sensor.urdf.xacro
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf/ICTE4001_MRobot_control.urdf.xacro
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//urdf/ICTE4001_MRobot_base.urdf.xacro
+[1.053s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//rviz
+[1.057s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//rviz/view_robot_sensor.rviz
+[1.057s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim//rviz/view_robot.rviz
+[1.057s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/ament_index/resource_index/package_run_dependencies/diff_drive_robot_gz_sim
+[1.057s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/ament_index/resource_index/parent_prefix_path/diff_drive_robot_gz_sim
+[1.057s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/ament_prefix_path.sh
+[1.058s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/ament_prefix_path.dsv
+[1.058s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/path.sh
+[1.058s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/environment/path.dsv
+[1.058s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.bash
+[1.058s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.sh
+[1.059s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.zsh
+[1.059s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/local_setup.dsv
+[1.060s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/package.dsv
+[1.060s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/ament_index/resource_index/packages/diff_drive_robot_gz_sim
+[1.060s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/cmake/diff_drive_robot_gz_simConfig.cmake
+[1.060s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/cmake/diff_drive_robot_gz_simConfig-version.cmake
+[1.061s] -- Installing: /home/robotai/tut3_ws/install/diff_drive_robot_gz_sim/share/diff_drive_robot_gz_sim/package.xml
+[1.061s] Invoked command in '/home/robotai/tut3_ws/build/diff_drive_robot_gz_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/diff_drive_robot_gz_sim

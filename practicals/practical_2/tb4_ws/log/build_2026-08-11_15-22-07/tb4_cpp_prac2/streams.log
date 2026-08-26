@@ -1,0 +1,26 @@
+[0.005s] Invoking command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/build/tb4_cpp_prac2 -- -j24 -l24
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target tb4_arc_action[0m
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o[0m
+[3.716s] [100%] [32m[1mLinking CXX executable tb4_arc_action[0m
+[3.921s] [100%] Built target tb4_arc_action
+[3.928s] Invoked command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/build/tb4_cpp_prac2 -- -j24 -l24
+[3.948s] Invoking command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/tb4_ws/build/tb4_cpp_prac2
+[3.953s] -- Install configuration: ""
+[3.953s] -- Installing: /home/robotai/tb4_ws/install/tb4_cpp_prac2/lib/tb4_cpp_prac2/tb4_arc_action
+[3.954s] -- Set runtime path of "/home/robotai/tb4_ws/install/tb4_cpp_prac2/lib/tb4_cpp_prac2/tb4_arc_action" to ""
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac2
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac2
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/ament_prefix_path.sh
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/ament_prefix_path.dsv
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/path.sh
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/environment/path.dsv
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.bash
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.sh
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.zsh
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/local_setup.dsv
+[3.954s] -- Installing: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/package.dsv
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/ament_index/resource_index/packages/tb4_cpp_prac2
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/cmake/tb4_cpp_prac2Config.cmake
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/cmake/tb4_cpp_prac2Config-version.cmake
+[3.954s] -- Up-to-date: /home/robotai/tb4_ws/install/tb4_cpp_prac2/share/tb4_cpp_prac2/package.xml
+[3.955s] Invoked command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/tb4_ws/build/tb4_cpp_prac2

@@ -1,0 +1,34 @@
+[0.004s] Invoking command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/build/tb4_cpp_prac2 -- -j24 -l24
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target tb4_arc_action[0m
+[0.037s] [ 50%] [32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o[0m
+[0.986s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Kvoid TB4ArcActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >)[m[K’:
+[0.986s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:11:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator![m[K’ (operand type is ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’})
+[0.986s]   174 |     while([01;31m[K!odom_->pose.pose[m[K){
+[0.986s]       |           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.986s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:11:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator!(bool)[m[K’ (built-in)
+[0.986s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kbool[m[K’
+[0.986s] In file included from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:30[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:22[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[0.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.987s]                  from [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4[m[K:
+[0.987s] [01m[K/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst std::mutex& operator!(const std::mutex&)[m[K’
+[0.987s]    55 | inline const std::mutex & [01;36m[Koperator[m[K!(const std::mutex & a)
+[0.987s]       |                           [01;36m[K^~~~~~~~[m[K
+[0.987s] [01m[K/opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:55:56:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst std::mutex&[m[K’
+[0.987s]    55 | inline const std::mutex & operator!([01;36m[Kconst std::mutex & a[m[K)
+[0.987s]       |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~^[m[K
+[2.100s] gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1
+[2.101s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2
+[2.101s] gmake: *** [Makefile:146: all] Error 2
+[2.103s] Invoked command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/build/tb4_cpp_prac2 -- -j24 -l24

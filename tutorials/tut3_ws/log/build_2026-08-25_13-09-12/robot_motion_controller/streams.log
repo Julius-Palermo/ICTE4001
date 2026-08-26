@@ -1,0 +1,29 @@
+[0.040s] Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/robot_motion_controller -- -j4 -l4
+[0.102s] [35m[1mConsolidate compiler generated dependencies of target wall_follower[0m
+[0.138s] [ 50%] Built target person_follower
+[0.144s] [ 75%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[10.787s] [100%] [32m[1mLinking CXX executable wall_follower[0m
+[11.227s] [100%] Built target wall_follower
+[11.250s] Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/robot_motion_controller -- -j4 -l4
+[11.748s] Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/robot_motion_controller
+[11.761s] -- Install configuration: ""
+[11.764s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower
+[11.764s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower
+[11.764s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower
+[11.770s] -- Set runtime path of "/home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/wall_follower" to ""
+[11.770s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller
+[11.770s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller
+[11.771s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.sh
+[11.771s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.dsv
+[11.771s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.sh
+[11.771s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.dsv
+[11.771s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.bash
+[11.771s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.sh
+[11.771s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.zsh
+[11.772s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.dsv
+[11.772s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/package.dsv
+[11.772s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/packages/robot_motion_controller
+[11.772s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig.cmake
+[11.772s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig-version.cmake
+[11.772s] -- Up-to-date: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/package.xml
+[11.777s] Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/robot_motion_controller

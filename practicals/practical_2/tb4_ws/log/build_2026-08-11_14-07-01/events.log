@@ -1,0 +1,89 @@
+[0.000000] (-) TimerEvent: {}
+[0.001095] (tb4_cpp_prac2) JobQueued: {'identifier': 'tb4_cpp_prac2', 'dependencies': OrderedDict()}
+[0.001152] (tb4_cpp_prac2) JobStarted: {'identifier': 'tb4_cpp_prac2'}
+[0.004254] (tb4_cpp_prac2) JobProgress: {'identifier': 'tb4_cpp_prac2', 'progress': 'cmake'}
+[0.004377] (tb4_cpp_prac2) JobProgress: {'identifier': 'tb4_cpp_prac2', 'progress': 'build'}
+[0.004630] (tb4_cpp_prac2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/tb4_ws/build/tb4_cpp_prac2', '--', '-j24', '-l24'], 'cwd': '/home/robotai/tb4_ws/build/tb4_cpp_prac2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '19400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ICTE4001:@/tmp/.ICE-unix/19369,unix/ICTE4001:/tmp/.ICE-unix/19369'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b3b9bb2_9513_44ab_be63_cf5f9223e492'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.Q420T3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/tb4_ws/build/tb4_cpp_prac2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029393] (tb4_cpp_prac2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb4_arc_action\x1b[0m\n'}
+[0.038134] (tb4_cpp_prac2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o\x1b[0m\n'}
+[0.100168] (-) TimerEvent: {}
+[0.200559] (-) TimerEvent: {}
+[0.300880] (-) TimerEvent: {}
+[0.401147] (-) TimerEvent: {}
+[0.501396] (-) TimerEvent: {}
+[0.601704] (-) TimerEvent: {}
+[0.702114] (-) TimerEvent: {}
+[0.802525] (-) TimerEvent: {}
+[0.902957] (-) TimerEvent: {}
+[0.973227] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTB4ArcActionServer::TB4ArcActionServer(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.973385] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDrive_Distance\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.973414] (tb4_cpp_prac2) StderrLine: {'line': b'   43 |     this->action_server_ = rclcpp_action::create_server<\x1b[01;31m\x1b[KDrive_Distance\x1b[m\x1b[K>(\n'}
+[0.973433] (tb4_cpp_prac2) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.981532] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<<expression error> >(TB4ArcActionServer*, const char [16], std::_Bind_helper<false, rclcpp_action::GoalResponse (TB4ArcActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const irobot_create_msgs::action::DriveArc_Goal_<std::allocator<void> > >), TB4ArcActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (TB4ArcActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >), TB4ArcActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (TB4ArcActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >), TB4ArcActionServer*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.981656] (tb4_cpp_prac2) StderrLine: {'line': b'   43 |     this->action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<Drive_Distance>(\x1b[m\x1b[K\n'}
+[0.981685] (tb4_cpp_prac2) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.981703] (tb4_cpp_prac2) StderrLine: {'line': b'   44 | \x1b[01;31m\x1b[K        this,\x1b[m\x1b[K\n'}
+[0.981720] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                           \n'}
+[0.981736] (tb4_cpp_prac2) StderrLine: {'line': b'   45 | \x1b[01;31m\x1b[K        "drive_arc_prac2",\x1b[m\x1b[K\n'}
+[0.981751] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                              \n'}
+[0.981767] (tb4_cpp_prac2) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_goal, this, _1, _2),\x1b[m\x1b[K\n'}
+[0.981782] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[0.981796] (tb4_cpp_prac2) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_cancel, this, _1),\x1b[m\x1b[K\n'}
+[0.981816] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[0.981830] (tb4_cpp_prac2) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_accepted, this, _1))\x1b[m\x1b[K;\n'}
+[0.981845] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[0.981860] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[0.981874] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:5\x1b[m\x1b[K:\n'}
+[0.981889] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.981912] (tb4_cpp_prac2) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[0.981931] (tb4_cpp_prac2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.981946] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.981963] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.981978] (tb4_cpp_prac2) StderrLine: {'line': b'   43 |     this->action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<Drive_Distance>(\x1b[m\x1b[K\n'}
+[0.981995] (tb4_cpp_prac2) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.982010] (tb4_cpp_prac2) StderrLine: {'line': b'   44 | \x1b[01;31m\x1b[K        this,\x1b[m\x1b[K\n'}
+[0.982026] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                           \n'}
+[0.982041] (tb4_cpp_prac2) StderrLine: {'line': b'   45 | \x1b[01;31m\x1b[K        "drive_arc_prac2",\x1b[m\x1b[K\n'}
+[0.982055] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                              \n'}
+[0.982070] (tb4_cpp_prac2) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_goal, this, _1, _2),\x1b[m\x1b[K\n'}
+[0.982084] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[0.982098] (tb4_cpp_prac2) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_cancel, this, _1),\x1b[m\x1b[K\n'}
+[0.982112] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[0.982126] (tb4_cpp_prac2) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_accepted, this, _1))\x1b[m\x1b[K;\n'}
+[0.982140] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[0.982154] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[0.982168] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:5\x1b[m\x1b[K:\n'}
+[0.982181] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.982198] (tb4_cpp_prac2) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[0.982211] (tb4_cpp_prac2) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.982225] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.982239] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:72:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[0.982253] (tb4_cpp_prac2) StderrLine: {'line': b'   43 |     this->action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<Drive_Distance>(\x1b[m\x1b[K\n'}
+[0.982267] (tb4_cpp_prac2) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[0.982280] (tb4_cpp_prac2) StderrLine: {'line': b'   44 | \x1b[01;31m\x1b[K        this,\x1b[m\x1b[K\n'}
+[0.982294] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                                           \n'}
+[0.982309] (tb4_cpp_prac2) StderrLine: {'line': b'   45 | \x1b[01;31m\x1b[K        "drive_arc_prac2",\x1b[m\x1b[K\n'}
+[0.982324] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                              \n'}
+[0.982340] (tb4_cpp_prac2) StderrLine: {'line': b'   46 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_goal, this, _1, _2),\x1b[m\x1b[K\n'}
+[0.982355] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[0.982369] (tb4_cpp_prac2) StderrLine: {'line': b'   47 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_cancel, this, _1),\x1b[m\x1b[K\n'}
+[0.982382] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K        \n'}
+[0.982396] (tb4_cpp_prac2) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[K        std::bind(&TB4ArcActionServer::handle_accepted, this, _1))\x1b[m\x1b[K;\n'}
+[0.982410] (tb4_cpp_prac2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K      \n'}
+[1.002996] (-) TimerEvent: {}
+[1.103194] (-) TimerEvent: {}
+[1.203505] (-) TimerEvent: {}
+[1.303842] (-) TimerEvent: {}
+[1.404088] (-) TimerEvent: {}
+[1.504385] (-) TimerEvent: {}
+[1.604686] (-) TimerEvent: {}
+[1.705024] (-) TimerEvent: {}
+[1.805356] (-) TimerEvent: {}
+[1.905667] (-) TimerEvent: {}
+[2.005989] (-) TimerEvent: {}
+[2.047707] (tb4_cpp_prac2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1\n'}
+[2.048091] (tb4_cpp_prac2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2\n'}
+[2.048376] (tb4_cpp_prac2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.049913] (tb4_cpp_prac2) CommandEnded: {'returncode': 2}
+[2.069824] (tb4_cpp_prac2) JobEnded: {'identifier': 'tb4_cpp_prac2', 'rc': 2}
+[2.080313] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Kvoid TB4ArcActionServer::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:94:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_recieved[m[K’ was not declared in this scope
+   94 |   [01;31m[Kodom_recieved[m[K = true;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const irobot_create_msgs::action::DriveArc_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:131:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  131 |   if (goal ->radius < 0 || goal->max_translation_speed < 0 ||[01;31m[K)[m[K // reject goal if negative values used
+      |                                                              [01;31m[K^[m[K
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:134:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+  134 |     [01;31m[Kreturn[m[K rlcpp_action::GoalResponse::REJECT;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:134:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krlcpp_action[m[K’ has not been declared
+  134 |     return [01;31m[Krlcpp_action[m[K::GoalResponse::REJECT;
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Kvoid TB4ArcActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >)[m[K’:
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:172:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_recieved[m[K’ was not declared in this scope
+  172 |     if ([01;31m[Kodom_recieved[m[K == true){
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:183:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_recieved[m[K’ was not declared in this scope
+  183 |     [01;31m[Kodom_recieved[m[K = false;
+      |     [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

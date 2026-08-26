@@ -1,0 +1,71 @@
+[0.021s] Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut3_ws/src/robot_motion_controller -DCMAKE_INSTALL_PREFIX=/home/robotai/tut3_ws/install/robot_motion_controller
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.214s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.328s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.336s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.467s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.470s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.657s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.768s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.882s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.893s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.921s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.953s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.149s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.155s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.333s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.373s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.445s] -- Looking for pthread.h
+[1.579s] -- Looking for pthread.h - found
+[1.580s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.689s] -- Found Threads: TRUE  
+[1.933s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.006s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.112s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.223s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.311s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.311s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotai/tut3_ws/src/robot_motion_controller/include>
+[2.311s] -- Configured cppcheck exclude dirs and/or files: 
+[2.312s] -- Added test 'lint_cmake' to check CMake code style
+[2.313s] -- Added test 'uncrustify' to check C / C++ code style
+[2.313s] -- Configured uncrustify additional arguments: 
+[2.314s] -- Added test 'xmllint' to check XML markup files
+[2.315s] -- Configuring done
+[2.325s] -- Generating done
+[2.327s] -- Build files have been written to: /home/robotai/tut3_ws/build/robot_motion_controller
+[2.337s] Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut3_ws/src/robot_motion_controller -DCMAKE_INSTALL_PREFIX=/home/robotai/tut3_ws/install/robot_motion_controller
+[2.340s] Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/robot_motion_controller -- -j4 -l4
+[2.415s] [ 50%] [32mBuilding CXX object CMakeFiles/person_follower.dir/src/person_follower.cpp.o[0m
+[13.037s] [100%] [32m[1mLinking CXX executable person_follower[0m
+[13.512s] [100%] Built target person_follower
+[13.525s] Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/robot_motion_controller -- -j4 -l4
+[13.592s] Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/robot_motion_controller
+[13.602s] -- Install configuration: ""
+[13.602s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower
+[13.605s] -- Set runtime path of "/home/robotai/tut3_ws/install/robot_motion_controller/lib/robot_motion_controller/person_follower" to ""
+[13.606s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/package_run_dependencies/robot_motion_controller
+[13.606s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/parent_prefix_path/robot_motion_controller
+[13.606s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.sh
+[13.606s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/ament_prefix_path.dsv
+[13.607s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.sh
+[13.607s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/environment/path.dsv
+[13.607s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.bash
+[13.607s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.sh
+[13.607s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.zsh
+[13.608s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/local_setup.dsv
+[13.608s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/package.dsv
+[13.608s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/ament_index/resource_index/packages/robot_motion_controller
+[13.609s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig.cmake
+[13.609s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/cmake/robot_motion_controllerConfig-version.cmake
+[13.609s] -- Installing: /home/robotai/tut3_ws/install/robot_motion_controller/share/robot_motion_controller/package.xml
+[13.613s] Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/robot_motion_controller

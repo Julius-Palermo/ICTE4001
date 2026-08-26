@@ -1,0 +1,6 @@
+Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut3_ws/src/robot_motion_controller -DCMAKE_INSTALL_PREFIX=/home/robotai/tut3_ws/install/robot_motion_controller
+Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/tut3_ws/src/robot_motion_controller -DCMAKE_INSTALL_PREFIX=/home/robotai/tut3_ws/install/robot_motion_controller
+Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/robot_motion_controller -- -j4 -l4
+Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/tut3_ws/build/robot_motion_controller -- -j4 -l4
+Invoking command in '/home/robotai/tut3_ws/build/robot_motion_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/robot_motion_controller
+Invoked command in '/home/robotai/tut3_ws/build/robot_motion_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/tut3_ws/build/robot_motion_controller

@@ -1,0 +1,21 @@
+[0.004s] Invoking command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/build/tb4_cpp_prac2 -- -j24 -l24
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target tb4_arc_action[0m
+[0.039s] [ 50%] [32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o[0m
+[0.988s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Kvoid TB4ArcActionServer::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.990s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:95:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_recieved[m[K’ was not declared in this scope
+[0.990s]    95 |   [01;31m[Kodom_recieved[m[K = true;
+[0.990s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[0.990s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse TB4ArcActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const irobot_create_msgs::action::DriveArc_Goal_<std::allocator<void> > >)[m[K’:
+[0.990s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:132:62:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[0.990s]   132 |   if (goal ->radius < 0 || goal->max_translation_speed < 0 ||[01;31m[K)[m[K // reject goal if negative values used
+[0.990s]       |                                                              [01;31m[K^[m[K
+[0.990s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:135:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+[0.990s]   135 |     [01;31m[Kreturn[m[K rlcpp_action::GoalResponse::REJECT;
+[0.990s]       |     [01;31m[K^~~~~~[m[K
+[0.990s] [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:135:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krlcpp_action[m[K’ has not been declared
+[0.990s]   135 |     return [01;31m[Krlcpp_action[m[K::GoalResponse::REJECT;
+[0.990s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[2.108s] gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1
+[2.109s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2
+[2.109s] gmake: *** [Makefile:146: all] Error 2
+[2.110s] Invoked command in '/home/robotai/tb4_ws/build/tb4_cpp_prac2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/build/tb4_cpp_prac2 -- -j24 -l24

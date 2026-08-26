@@ -1,0 +1,10 @@
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/uninstall.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/tb4_cpp_prac2_uninstall.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/tb4_arc_action.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/test.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/edit_cache.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/rebuild_cache.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/list_install_components.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/install.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/install/local.dir
+/home/robotai/tb4_ws/build/tb4_cpp_prac2/CMakeFiles/install/strip.dir

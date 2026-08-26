@@ -1,0 +1,58 @@
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:[m[K In constructor ‘[01m[KTB4ArcActionServer::TB4ArcActionServer(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:57:[m[K [01;31m[Kerror: [m[K‘[01m[KDrive_Distance[m[K’ was not declared in this scope
+   43 |     this->action_server_ = rclcpp_action::create_server<[01;31m[KDrive_Distance[m[K>(
+      |                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<<expression error> >(TB4ArcActionServer*, const char [16], std::_Bind_helper<false, rclcpp_action::GoalResponse (TB4ArcActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const irobot_create_msgs::action::DriveArc_Goal_<std::allocator<void> > >), TB4ArcActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (TB4ArcActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >), TB4ArcActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (TB4ArcActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >), TB4ArcActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+   43 |     this->action_server_ = [01;31m[Krclcpp_action::create_server<Drive_Distance>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   44 | [01;31m[K        this,[m[K
+      |         [01;31m[K~~~~~[m[K                                                           
+   45 | [01;31m[K        "drive_arc_prac2",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~[m[K                                              
+   46 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_goal, this, _1, _2),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+   47 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_cancel, this, _1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   48 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_accepted, this, _1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+   58 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |     this->action_server_ = [01;31m[Krclcpp_action::create_server<Drive_Distance>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   44 | [01;31m[K        this,[m[K
+      |         [01;31m[K~~~~~[m[K                                                           
+   45 | [01;31m[K        "drive_arc_prac2",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~[m[K                                              
+   46 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_goal, this, _1, _2),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+   47 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_cancel, this, _1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   48 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_accepted, this, _1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:5[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  132 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:43:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   43 |     this->action_server_ = [01;31m[Krclcpp_action::create_server<Drive_Distance>([m[K
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   44 | [01;31m[K        this,[m[K
+      |         [01;31m[K~~~~~[m[K                                                           
+   45 | [01;31m[K        "drive_arc_prac2",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~[m[K                                              
+   46 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_goal, this, _1, _2),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+   47 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_cancel, this, _1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   48 | [01;31m[K        std::bind(&TB4ArcActionServer::handle_accepted, this, _1))[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K      
+gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,658 @@
+[0.000000] (-) TimerEvent: {}
+[0.001328] (tb4_cpp_prac2) JobQueued: {'identifier': 'tb4_cpp_prac2', 'dependencies': OrderedDict()}
+[0.001355] (tb4_cpp_prac2) JobStarted: {'identifier': 'tb4_cpp_prac2'}
+[0.004071] (tb4_cpp_prac2) JobProgress: {'identifier': 'tb4_cpp_prac2', 'progress': 'cmake'}
+[0.004304] (tb4_cpp_prac2) JobProgress: {'identifier': 'tb4_cpp_prac2', 'progress': 'build'}
+[0.004554] (tb4_cpp_prac2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/tb4_ws/build/tb4_cpp_prac2', '--', '-j24', '-l24'], 'cwd': '/home/robotai/tb4_ws/build/tb4_cpp_prac2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/home/robotai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '19400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robotai/tb4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ICTE4001:@/tmp/.ICE-unix/19369,unix/ICTE4001:/tmp/.ICE-unix/19369'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9b3b9bb2_9513_44ab_be63_cf5f9223e492'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.Q420T3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.122'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/home/robotai/tb4_ws/install/tb4_cpp_prac2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/tb4_ws/build/tb4_cpp_prac2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robotai/tb4_ws/install/tb4_cpp_prac2:/opt/ros/humble')]), 'shell': False}
+[0.031519] (tb4_cpp_prac2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tb4_arc_action\x1b[0m\n'}
+[0.041191] (tb4_cpp_prac2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o\x1b[0m\n'}
+[0.099994] (-) TimerEvent: {}
+[0.200276] (-) TimerEvent: {}
+[0.300604] (-) TimerEvent: {}
+[0.400933] (-) TimerEvent: {}
+[0.501266] (-) TimerEvent: {}
+[0.601525] (-) TimerEvent: {}
+[0.701868] (-) TimerEvent: {}
+[0.802180] (-) TimerEvent: {}
+[0.902436] (-) TimerEvent: {}
+[0.998824] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TB4ArcActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<irobot_create_msgs::action::DriveArc> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.998979] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[0.999011] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(\x1b[01;31m\x1b[Kodom_->pose.pose == nullptr\x1b[m\x1b[K){\n'}
+[0.999034] (tb4_cpp_prac2) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.999053] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:22\x1b[m\x1b[K,\n'}
+[0.999073] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/irobot_create_msgs/irobot_create_msgs/action/detail/drive_arc__struct.hpp:208\x1b[m\x1b[K,\n'}
+[0.999094] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/irobot_create_msgs/irobot_create_msgs/action/drive_arc.hpp:7\x1b[m\x1b[K,\n'}
+[0.999249] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:7\x1b[m\x1b[K:\n'}
+[0.999267] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:118:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool geometry_msgs::msg::Pose_<ContainerAllocator>::operator==(const geometry_msgs::msg::Pose_<ContainerAllocator>&) const [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.999286] (tb4_cpp_prac2) StderrLine: {'line': b'  118 |   bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const Pose_ & other) const\n'}
+[0.999303] (tb4_cpp_prac2) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.999319] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:118:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.999337] (tb4_cpp_prac2) StderrLine: {'line': b'  118 |   bool operator==(\x1b[01;36m\x1b[Kconst Pose_ & other\x1b[m\x1b[K) const\n'}
+[0.999357] (tb4_cpp_prac2) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[0.999373] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[0.999389] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[0.999406] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[0.999422] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[0.999438] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.999629] (tb4_cpp_prac2) StderrLine: {'line': b'  466 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[0.999646] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.999662] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:466:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.999678] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.999695] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[0.999712] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.999727] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[0.999742] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[0.999769] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[0.999785] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[0.999800] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[0.999816] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.999835] (tb4_cpp_prac2) StderrLine: {'line': b'  420 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[0.999851] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.999869] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:420:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.999885] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.999904] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[0.999919] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.999937] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[0.999957] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[0.999976] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.000042] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[1.000194] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.000215] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.000235] (tb4_cpp_prac2) StderrLine: {'line': b'  459 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[1.000255] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.000274] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:459:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.000294] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.000314] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.000333] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.000360] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.000379] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[1.000397] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.000416] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[1.000434] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.000452] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.000471] (tb4_cpp_prac2) StderrLine: {'line': b' 1585 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[1.000572] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.000592] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1585:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.000611] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.000672] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.000692] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.000711] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[1.000729] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/array:40\x1b[m\x1b[K,\n'}
+[1.000748] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.000766] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[1.000783] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.000801] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.000855] (tb4_cpp_prac2) StderrLine: {'line': b' 1648 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[1.000912] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.000934] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_iterator.h:1648:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.000984] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001003] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.001021] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001038] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[1.001055] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[1.001073] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.001091] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001111] (tb4_cpp_prac2) StderrLine: {'line': b'  276 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[1.001128] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.001144] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/array:276:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.001160] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001178] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.001194] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001210] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[1.001226] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.001240] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001257] (tb4_cpp_prac2) StderrLine: {'line': b' 1524 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[1.001273] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.001290] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:1524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.001308] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001327] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.001343] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001359] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[1.001374] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.001390] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001407] (tb4_cpp_prac2) StderrLine: {'line': b'  718 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[1.001425] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.001440] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:718:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.001456] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001474] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.001491] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001507] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[1.001522] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.001538] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001553] (tb4_cpp_prac2) StderrLine: {'line': b'  725 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[1.001569] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.001585] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:725:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.001600] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001616] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.001633] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001648] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[1.001664] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[1.001680] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.001695] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp1>&, const std::allocator<_T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001711] (tb4_cpp_prac2) StderrLine: {'line': b'  218 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[1.001726] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.001742] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:218:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.001759] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001775] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.001792] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001807] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[1.001823] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[1.001839] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.001854] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001873] (tb4_cpp_prac2) StderrLine: {'line': b' 2134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.001888] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.001904] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.001920] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.001936] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.001957] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.001975] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:47\x1b[m\x1b[K,\n'}
+[1.001991] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[1.002006] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.002023] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002129] (tb4_cpp_prac2) StderrLine: {'line': b' 2148 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.002171] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.002201] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_map.h:2148:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.002222] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002247] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.002266] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.002285] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/vector:67\x1b[m\x1b[K,\n'}
+[1.002303] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:62\x1b[m\x1b[K,\n'}
+[1.002319] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:1\x1b[m\x1b[K:\n'}
+[1.002336] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002353] (tb4_cpp_prac2) StderrLine: {'line': b' 1892 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[1.002369] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.002385] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_vector.h:1892:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.002401] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002418] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.002435] (-) TimerEvent: {}
+[1.002538] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.002563] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.002582] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.002603] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002622] (tb4_cpp_prac2) StderrLine: {'line': b'  753 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[1.002638] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.002654] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:753:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.002674] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002691] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.002707] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.002723] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.002738] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.002754] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002770] (tb4_cpp_prac2) StderrLine: {'line': b'  760 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[1.002786] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.002802] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:760:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.002820] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002841] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.002857] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.002873] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[1.002889] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.002905] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002921] (tb4_cpp_prac2) StderrLine: {'line': b'  767 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[1.002937] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.002962] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:767:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.002977] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.002995] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.003013] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.003031] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iosfwd:40\x1b[m\x1b[K,\n'}
+[1.003050] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[1.003066] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.003083] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.003100] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003117] (tb4_cpp_prac2) StderrLine: {'line': b'  222 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[1.003133] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.003148] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.003175] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003193] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.003209] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.003225] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.003242] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.003258] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.003276] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003293] (tb4_cpp_prac2) StderrLine: {'line': b' 1410 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[1.003310] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.003327] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1410:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.003343] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003361] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.003378] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.003394] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.003413] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.003429] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.003447] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003462] (tb4_cpp_prac2) StderrLine: {'line': b' 1416 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[1.003478] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.003493] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1416:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.003509] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003525] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.003542] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.003557] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:53\x1b[m\x1b[K,\n'}
+[1.003572] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.003587] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.003603] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003619] (tb4_cpp_prac2) StderrLine: {'line': b' 1436 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[1.003635] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.003650] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1436:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.003666] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003684] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.003699] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.003714] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.003729] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.003744] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003760] (tb4_cpp_prac2) StderrLine: {'line': b'  437 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[1.003775] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.003790] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:437:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.003806] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003824] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.003840] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.003855] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.003870] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.003885] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003901] (tb4_cpp_prac2) StderrLine: {'line': b'  443 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[1.003915] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.003930] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:443:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.003948] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.003969] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.003984] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.004001] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[1.004017] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:2\x1b[m\x1b[K:\n'}
+[1.004032] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004048] (tb4_cpp_prac2) StderrLine: {'line': b'  464 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[1.004064] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.004081] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:464:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.004097] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004113] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.004127] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.004142] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[1.004157] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.004172] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.004188] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.004203] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.004218] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.004233] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.004248] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.004263] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.004278] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004294] (tb4_cpp_prac2) StderrLine: {'line': b'  535 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[1.004309] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.004325] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.004340] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004359] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.004374] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.004388] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[1.004404] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.004419] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.004436] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.004452] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.004467] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.004482] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.004496] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.004512] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.004527] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004542] (tb4_cpp_prac2) StderrLine: {'line': b'  541 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(basic_string_view<_CharT, _Traits> __x,\n'}
+[1.004559] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.004575] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:541:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.004591] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004609] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.004625] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.004642] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[1.004657] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.004673] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.004688] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.004703] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.004717] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.004732] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.004749] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.004764] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.004779] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004796] (tb4_cpp_prac2) StderrLine: {'line': b'  564 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(__type_identity_t<basic_string_view<_CharT, _Traits>> __x,\n'}
+[1.004812] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.004827] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:564:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.004843] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.004859] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.004875] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.004890] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.004904] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.004919] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.004933] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.004951] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.004967] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.004982] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.004997] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.005012] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005028] (tb4_cpp_prac2) StderrLine: {'line': b' 6226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[1.005043] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.005058] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.005073] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005091] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.005106] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.005123] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.005140] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.005155] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.005170] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.005188] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.005202] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.005219] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.005234] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.005249] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005265] (tb4_cpp_prac2) StderrLine: {'line': b' 6234 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT>& __lhs,\n'}
+[1.005280] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.005295] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6234:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.005311] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005329] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.005344] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.005359] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.005374] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.005388] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.005403] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.005417] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.005434] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.005449] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.005464] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.005479] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005495] (tb4_cpp_prac2) StderrLine: {'line': b' 6248 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[1.005509] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.005524] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.005539] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005555] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.005570] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.005586] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[1.005600] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.005615] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[1.005630] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.005644] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.005659] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.005674] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.005688] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.005703] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005719] (tb4_cpp_prac2) StderrLine: {'line': b' 6289 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[1.005733] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.005750] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6289:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.005766] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005783] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.005798] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.005814] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:61\x1b[m\x1b[K,\n'}
+[1.005830] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[1.005853] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.005869] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.005886] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.005902] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005919] (tb4_cpp_prac2) StderrLine: {'line': b'  985 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[1.005935] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.005953] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_set.h:985:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.005970] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005987] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.006003] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.006018] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/set:62\x1b[m\x1b[K,\n'}
+[1.006034] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[1.006049] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.006064] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.006079] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.006094] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006112] (tb4_cpp_prac2) StderrLine: {'line': b'  971 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[1.006127] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.006142] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multiset.h:971:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.006157] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006175] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.006193] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.006209] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[1.006225] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[1.006240] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[1.006255] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[1.006270] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[1.006285] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.006300] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.006316] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.006335] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.006352] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.006369] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006387] (tb4_cpp_prac2) StderrLine: {'line': b'  226 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[1.006403] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.006418] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/streambuf_iterator.h:226:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.006434] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006452] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.006468] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.006482] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/list:63\x1b[m\x1b[K,\n'}
+[1.006497] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[1.006512] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.006527] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.006541] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.006556] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.006570] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006586] (tb4_cpp_prac2) StderrLine: {'line': b' 2030 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[1.006601] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.006616] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_list.h:2030:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.006631] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006648] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.006663] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.006678] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:61\x1b[m\x1b[K,\n'}
+[1.006692] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.006707] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.006722] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.006737] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.006751] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.006769] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006784] (tb4_cpp_prac2) StderrLine: {'line': b' 1463 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[1.006799] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.006814] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_map.h:1463:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.006829] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006851] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.006866] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.006880] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/map:62\x1b[m\x1b[K,\n'}
+[1.006895] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24\x1b[m\x1b[K,\n'}
+[1.006909] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.006924] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.006940] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.006957] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.006973] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006988] (tb4_cpp_prac2) StderrLine: {'line': b' 1128 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[1.007003] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.007018] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_multimap.h:1128:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.007033] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007048] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.007065] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.007080] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[1.007094] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[1.007109] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[1.007124] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.007139] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.007153] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.007168] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.007182] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007198] (tb4_cpp_prac2) StderrLine: {'line': b' 1804 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.007213] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.007228] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1804:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.007243] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007261] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.007277] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.007291] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/unordered_set:47\x1b[m\x1b[K,\n'}
+[1.007306] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:26\x1b[m\x1b[K,\n'}
+[1.007321] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[1.007338] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.007354] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.007370] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.007386] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.007402] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007418] (tb4_cpp_prac2) StderrLine: {'line': b' 1818 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,\n'}
+[1.007433] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.007448] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unordered_set.h:1818:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.007463] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007480] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.007494] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.007509] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.007523] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.007538] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.007553] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.007568] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.007582] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.007597] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.007612] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.007627] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.007642] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.007657] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.007672] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007687] (tb4_cpp_prac2) StderrLine: {'line': b' 1045 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)\n'}
+[1.007704] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.007718] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1045:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.007733] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007749] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.007763] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.007778] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.007792] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.007808] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.007823] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.007838] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.007852] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.007867] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.007883] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.007899] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.007915] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.007930] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.007946] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007962] (tb4_cpp_prac2) StderrLine: {'line': b' 1105 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept\n'}
+[1.007977] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.007992] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.008008] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.008027] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.008043] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.008058] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.008073] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.008088] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.008102] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.008116] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.008131] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.008145] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.008160] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.008175] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.008190] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.008204] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.008219] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.008234] (tb4_cpp_prac2) StderrLine: {'line': b' 1116 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept\n'}
+[1.008249] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.008263] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1116:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.008278] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.008292] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.008307] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.008324] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.008340] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.008356] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.008371] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.008388] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.008403] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.008419] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.008434] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.008449] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.008466] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.008481] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.008497] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Tp, _Up> std::operator==(const std::optional<_Tp>&, const _Up&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.008512] (tb4_cpp_prac2) StderrLine: {'line': b' 1173 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const optional<_Tp>& __lhs, const _Up& __rhs)\n'}
+[1.008527] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.008542] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1173:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.008556] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.008573] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.008587] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.008602] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23\x1b[m\x1b[K,\n'}
+[1.008617] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.008631] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.008646] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.008660] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.008675] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.008689] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.008704] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.008721] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.008735] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.008749] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.008764] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> constexpr std::__optional_eq_t<_Up, _Tp> std::operator==(const _Up&, const std::optional<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.008779] (tb4_cpp_prac2) StderrLine: {'line': b' 1179 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _Up& __lhs, const optional<_Tp>& __rhs)\n'}
+[1.008794] (tb4_cpp_prac2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.008809] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/optional:1179:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.008823] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::optional<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.008838] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.008853] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.008869] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[1.008884] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.008899] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.008913] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.008928] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.008944] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.008960] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.008975] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.008990] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.009005] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.009019] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.009036] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009053] (tb4_cpp_prac2) StderrLine: {'line': b' 1232 |   \x1b[01;36m\x1b[K_VARIANT_RELATION_FUNCTION_TEMPLATE\x1b[m\x1b[K(==, equal)\n'}
+[1.009069] (tb4_cpp_prac2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.009084] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.009099] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:174:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<_Types ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009115] (tb4_cpp_prac2) StderrLine: {'line': b'  174 |     while(odom_->pose.pose == \x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){\n'}
+[1.009129] (tb4_cpp_prac2) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.009144] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/thread:43\x1b[m\x1b[K,\n'}
+[1.009159] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:3\x1b[m\x1b[K:\n'}
+[1.009173] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009189] (tb4_cpp_prac2) StderrLine: {'line': b'  287 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[1.009204] (tb4_cpp_prac2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.009219] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:287:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009235] (tb4_cpp_prac2) StderrLine: {'line': b'  287 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[1.009250] (tb4_cpp_prac2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[1.009265] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[1.009280] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[1.009294] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.009309] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.009324] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.009338] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009354] (tb4_cpp_prac2) StderrLine: {'line': b'  362 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[1.009370] (tb4_cpp_prac2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.009387] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:362:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009406] (tb4_cpp_prac2) StderrLine: {'line': b'  362 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[1.009421] (tb4_cpp_prac2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.009436] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009452] (tb4_cpp_prac2) StderrLine: {'line': b'  368 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[1.009467] (tb4_cpp_prac2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.009481] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:368:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009497] (tb4_cpp_prac2) StderrLine: {'line': b'  368 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[1.009512] (tb4_cpp_prac2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.009527] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009544] (tb4_cpp_prac2) StderrLine: {'line': b'  376 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[1.009559] (tb4_cpp_prac2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.009574] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:376:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009593] (tb4_cpp_prac2) StderrLine: {'line': b'  376 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[1.009608] (tb4_cpp_prac2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.009622] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009637] (tb4_cpp_prac2) StderrLine: {'line': b'  408 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[1.009652] (tb4_cpp_prac2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.009666] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:408:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009684] (tb4_cpp_prac2) StderrLine: {'line': b'  408 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[1.009698] (tb4_cpp_prac2) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[1.009713] (tb4_cpp_prac2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28\x1b[m\x1b[K,\n'}
+[1.009727] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[1.009742] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.009757] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.009772] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.009786] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.009801] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.009816] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.009831] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.009845] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.009860] (tb4_cpp_prac2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/tb4_ws/src/tb4_cpp_prac2/src/tb4_arc_action.cpp:4\x1b[m\x1b[K:\n'}
+[1.009876] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr bool std::operator==(std::monostate, std::monostate)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009892] (tb4_cpp_prac2) StderrLine: {'line': b' 1239 |   constexpr bool \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(monostate, monostate) noexcept { return true; }\n'}
+[1.009907] (tb4_cpp_prac2) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.009922] (tb4_cpp_prac2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1239:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseWithCovariance_<std::allocator<void> >::_pose_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::monostate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.009938] (tb4_cpp_prac2) StderrLine: {'line': b' 1239 |   constexpr bool operator==(\x1b[01;36m\x1b[Kmonostate\x1b[m\x1b[K, monostate) noexcept { return true; }\n'}
+[1.009956] (tb4_cpp_prac2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.102601] (-) TimerEvent: {}
+[1.202935] (-) TimerEvent: {}
+[1.303327] (-) TimerEvent: {}
+[1.403642] (-) TimerEvent: {}
+[1.503972] (-) TimerEvent: {}
+[1.604221] (-) TimerEvent: {}
+[1.704539] (-) TimerEvent: {}
+[1.804852] (-) TimerEvent: {}
+[1.905114] (-) TimerEvent: {}
+[2.005452] (-) TimerEvent: {}
+[2.105779] (-) TimerEvent: {}
+[2.110993] (tb4_cpp_prac2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tb4_arc_action.dir/build.make:76: CMakeFiles/tb4_arc_action.dir/src/tb4_arc_action.cpp.o] Error 1\n'}
+[2.111409] (tb4_cpp_prac2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tb4_arc_action.dir/all] Error 2\n'}
+[2.111713] (tb4_cpp_prac2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.114426] (tb4_cpp_prac2) CommandEnded: {'returncode': 2}
+[2.134198] (tb4_cpp_prac2) JobEnded: {'identifier': 'tb4_cpp_prac2', 'rc': 2}
+[2.166886] (-) EventReactorShutdown: {}

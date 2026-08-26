@@ -1,0 +1,38 @@
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:12:38:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   12 |         wall_side_desc.description = [01;35m[K"[m[KA positive value indicates that the wall will be on the left
+      |                                      [01;35m[K^[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:12:38:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   12 |         wall_side_desc.description = [01;31m[K"A positive value indicates that the wall will be on the left[m[K
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:13:50:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   13 |         side of the robot, otherwise on the right[01;35m[K"[m[K;
+      |                                                  [01;35m[K^[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:13:50:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   13 |         side of the robot, otherwise on the right[01;31m[K";[m[K
+      |                                                  [01;31m[K^~[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:15:40:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   15 |         buffer_zone_desc.description = [01;35m[K"[m[KA positive value used to determine whether the tracking
+      |                                        [01;35m[K^[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:15:40:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   15 |         buffer_zone_desc.description = [01;31m[K"A positive value used to determine whether the tracking[m[K
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:16:29:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   16 |         control is on or off[01;35m[K"[m[K;
+      |                             [01;35m[K^[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:16:29:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   16 |         control is on or off[01;31m[K";[m[K
+      |                             [01;31m[K^~[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:[m[K In constructor ‘[01m[KWallFollower::WallFollower()[m[K’:
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:13:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kside[m[K’ was not declared in this scope
+   13 |         [01;31m[Kside[m[K of the robot, otherwise on the right";
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_zone_desc[m[K’ was not declared in this scope; did you mean ‘[01m[Kbuffer_zone_[m[K’?
+   15 |         [01;31m[Kbuffer_zone_desc[m[K.description = "A positive value used to determine whether the tracking
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kbuffer_zone_[m[K
+[01m[K/home/robotai/tut3_ws/src/robot_motion_controller/src/wall_follower.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol[m[K’ was not declared in this scope
+   16 |         [01;31m[Kcontrol[m[K is on or off";
+      |         [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wall_follower.dir/build.make:76: CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
