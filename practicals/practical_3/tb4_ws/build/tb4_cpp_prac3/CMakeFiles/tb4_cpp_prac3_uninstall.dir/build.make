@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotai/ICTE4001/practical_3/tb4_ws/build/tb4_cpp_prac3
+CMAKE_BINARY_DIR = /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3
 
 # Utility rule file for tb4_cpp_prac3_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/tb4_cpp_prac3_uninstall.dir/compiler_depend.make
 include CMakeFiles/tb4_cpp_prac3_uninstall.dir/progress.make
 
 CMakeFiles/tb4_cpp_prac3_uninstall:
-	/usr/bin/cmake -P /home/robotai/ICTE4001/practical_3/tb4_ws/build/tb4_cpp_prac3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 tb4_cpp_prac3_uninstall: CMakeFiles/tb4_cpp_prac3_uninstall
 tb4_cpp_prac3_uninstall: CMakeFiles/tb4_cpp_prac3_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/tb4_cpp_prac3_uninstall.dir/clean:
 .PHONY : CMakeFiles/tb4_cpp_prac3_uninstall.dir/clean
 
 CMakeFiles/tb4_cpp_prac3_uninstall.dir/depend:
-	cd /home/robotai/ICTE4001/practical_3/tb4_ws/build/tb4_cpp_prac3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3 /home/robotai/ICTE4001/practical_3/tb4_ws/src/tb4_cpp_prac3 /home/robotai/ICTE4001/practical_3/tb4_ws/build/tb4_cpp_prac3 /home/robotai/ICTE4001/practical_3/tb4_ws/build/tb4_cpp_prac3 /home/robotai/ICTE4001/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/tb4_cpp_prac3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/tb4_cpp_prac3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tb4_cpp_prac3_uninstall.dir/depend
 
