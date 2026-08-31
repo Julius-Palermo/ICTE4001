@@ -1,0 +1,29 @@
+[0.026s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 -- -j6 -l6
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target person_follower[0m
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target wall_follower[0m
+[0.089s] [ 25%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[0.090s] [ 75%] Built target person_follower
+[9.142s] [100%] [32m[1mLinking CXX executable wall_follower[0m
+[9.525s] [100%] Built target wall_follower
+[9.536s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 -- -j6 -l6
+[9.545s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3
+[9.551s] -- Install configuration: ""
+[9.551s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower
+[9.552s] -- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower
+[9.556s] -- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower" to ""
+[9.556s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac3
+[9.556s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac3
+[9.558s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.sh
+[9.558s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.dsv
+[9.558s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.sh
+[9.558s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.dsv
+[9.558s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.bash
+[9.559s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.sh
+[9.559s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.zsh
+[9.560s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.dsv
+[9.560s] -- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.dsv
+[9.560s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/packages/tb4_cpp_prac3
+[9.560s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config.cmake
+[9.560s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config-version.cmake
+[9.560s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.xml
+[9.560s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3

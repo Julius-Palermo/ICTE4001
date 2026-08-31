@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target wall_follower[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/person_follower.dir/src/person_follower.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable person_follower[0m
+[100%] [32m[1mLinking CXX executable wall_follower[0m
+[100%] Built target person_follower
+[100%] Built target wall_follower
+-- Install configuration: ""
+-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower
+-- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower" to ""
+-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower
+-- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower" to ""
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac3
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac3
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.bash
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.zsh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/packages/tb4_cpp_prac3
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config-version.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.xml

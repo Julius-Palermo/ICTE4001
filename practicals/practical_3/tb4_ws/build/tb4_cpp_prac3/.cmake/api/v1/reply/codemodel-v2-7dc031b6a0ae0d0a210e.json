@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-cb92e701644f862b794c.json",
+					"jsonFile" : "directory-.-16b3978853e8b4a1d93b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -18,7 +18,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -35,7 +36,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -44,7 +46,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "person_follower::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-person_follower-0178021f8395270aa855.json",
+					"jsonFile" : "target-person_follower-ada148a8474f824bf826.json",
 					"name" : "person_follower",
 					"projectIndex" : 0
 				},
@@ -60,6 +62,13 @@
 					"id" : "uninstall::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-uninstall-bc9849c3416f254bd1a3.json",
 					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wall_follower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wall_follower-3f4fe44e161c5ea45e85.json",
+					"name" : "wall_follower",
 					"projectIndex" : 0
 				}
 			]

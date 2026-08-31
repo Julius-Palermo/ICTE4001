@@ -210,6 +210,19 @@ person_follower/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_follower.dir/build.make CMakeFiles/person_follower.dir/build
 .PHONY : person_follower/fast
 
+#=============================================================================
+# Target rules for targets named wall_follower
+
+# Build rule for target.
+wall_follower: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wall_follower
+.PHONY : wall_follower
+
+# fast build rule for target.
+wall_follower/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_follower.dir/build.make CMakeFiles/wall_follower.dir/build
+.PHONY : wall_follower/fast
+
 src/person_follower.o: src/person_follower.cpp.o
 .PHONY : src/person_follower.o
 
@@ -234,6 +247,30 @@ src/person_follower.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/person_follower.dir/build.make CMakeFiles/person_follower.dir/src/person_follower.cpp.s
 .PHONY : src/person_follower.cpp.s
 
+src/wall_follower.o: src/wall_follower.cpp.o
+.PHONY : src/wall_follower.o
+
+# target to build an object file
+src/wall_follower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_follower.dir/build.make CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o
+.PHONY : src/wall_follower.cpp.o
+
+src/wall_follower.i: src/wall_follower.cpp.i
+.PHONY : src/wall_follower.i
+
+# target to preprocess a source file
+src/wall_follower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_follower.dir/build.make CMakeFiles/wall_follower.dir/src/wall_follower.cpp.i
+.PHONY : src/wall_follower.cpp.i
+
+src/wall_follower.s: src/wall_follower.cpp.s
+.PHONY : src/wall_follower.s
+
+# target to generate assembly for a file
+src/wall_follower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wall_follower.dir/build.make CMakeFiles/wall_follower.dir/src/wall_follower.cpp.s
+.PHONY : src/wall_follower.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... tb4_cpp_prac3_uninstall"
 	@echo "... uninstall"
 	@echo "... person_follower"
+	@echo "... wall_follower"
 	@echo "... src/person_follower.o"
 	@echo "... src/person_follower.i"
 	@echo "... src/person_follower.s"
+	@echo "... src/wall_follower.o"
+	@echo "... src/wall_follower.i"
+	@echo "... src/wall_follower.s"
 .PHONY : help
 
 

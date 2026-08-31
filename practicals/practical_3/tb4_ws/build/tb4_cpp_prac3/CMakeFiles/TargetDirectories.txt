@@ -1,6 +1,7 @@
 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/uninstall.dir
 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/tb4_cpp_prac3_uninstall.dir
 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/person_follower.dir
+/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/wall_follower.dir
 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/test.dir
 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/edit_cache.dir
 /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3/CMakeFiles/rebuild_cache.dir

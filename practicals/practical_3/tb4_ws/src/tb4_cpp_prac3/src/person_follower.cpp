@@ -24,9 +24,9 @@ public:
 
       // Declare parameters
       this->declare_parameter<double>("following_distance", 0.5);
-      this->declare_parameter<float>("following_angle", 0);
-      this->declare_parameter<float>("angle_control_gain", 2.0);
-      this->declare_parameter<float>("distance_control_gain", 1);
+      this->declare_parameter<double>("following_angle", 0);
+      this->declare_parameter<double>("angle_control_gain", 2.0);
+      this->declare_parameter<double>("distance_control_gain", 1);
       
       // Get parameter values
       this->get_parameter("following_distance", following_distance_);
@@ -35,10 +35,10 @@ public:
       this->get_parameter("distance_control_gain", followindistance_control_gain_);
      
       // Print parameter values
-      RCLCPP_INFO(this->get_logger(), "following_distance: %.2f", following_distance_);
-      RCLCPP_INFO(this->get_logger(), "following_angle: %.2f", following_angle_);
-      RCLCPP_INFO(this->get_logger(), "angle_control_gain: %.2f", angle_control_gain_);
-      RCLCPP_INFO(this->get_logger(), "distance_control_gain: %.2f", followindistance_control_gain_);
+      RCLCPP_INFO(this->get_logger(), "following_distance: %.2lf", following_distance_);
+      RCLCPP_INFO(this->get_logger(), "following_angle: %.2lf", following_angle_);
+      RCLCPP_INFO(this->get_logger(), "angle_control_gain: %.2lf", angle_control_gain_);
+      RCLCPP_INFO(this->get_logger(), "distance_control_gain: %.2lf", followindistance_control_gain_);
 
       //  Initalise the dynamic parameter handler
       dyn_params_handler_ = this->add_on_set_parameters_callback(
@@ -110,7 +110,7 @@ void PersonFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr 
   // finds the minimum element in the ranges vector of the scan_msg. It returns an iterator (min_distance) pointing to the smallest value in the range.
   auto min_distance = std::min_element(
     scan_msg->ranges.begin(), scan_msg->ranges.end(),
-    [](float a, float b) {
+    [](double a, double b) {
       bool a_valid = a >= 0.2f && std::isfinite(a);
       bool b_valid = b >= 0.2f && std::isfinite(b);
       if (!a_valid) return false;
@@ -119,22 +119,22 @@ void PersonFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr 
     }  
 );
   // Extracts the actual minimum value from the iterator obtained in the previous step.
-  float min_value = *min_distance;
-  RCLCPP_INFO(this->get_logger(), "min value: %.2f", min_value);
+  double min_value = *min_distance;
+  RCLCPP_INFO(this->get_logger(), "min value: %.2lf", min_value);
   // Calculates the index of the minimum value in the ranges vector by finding the distance between the beginning of the vector and the iterator pointing to the minimum value.
   int min_index = std::distance(scan_msg->ranges.begin(), min_distance);
   // Calculate the angle corresponding to the index of the minimum value.
-  float angle_L = scan_msg->angle_min + scan_msg->angle_increment * min_index;
-  float angle_R = angle_L + PI/2;
+  double angle_L = scan_msg->angle_min + scan_msg->angle_increment * min_index;
+  double angle_R = angle_L + PI/2;
   if(angle_R > PI)
   {
     angle_R -= 2*PI;
   }
-  RCLCPP_INFO(this->get_logger(), "angle_R in PI: %.2f", angle_R/PI);
+  RCLCPP_INFO(this->get_logger(), "angle_R in PI: %.2lf", angle_R/PI);
 
   geometry_msgs::msg::Twist cmd_vel_msg;
   // Checks if the minimum value detected by the LiDAR is less than 12 meters. If true, it proceeds to calculate control commands based on this information; otherwise, it handles the case where no object is detected.
-  if(min_value < 12)
+  if(min_value < scan_msg->range_max)
   {
     // Assigns angular and linear velocities to the cmd_vel_msg based on proportional control using gains (angle_control_gain_ and following_distance_control_gain_).
     cmd_vel_msg.angular.z = angle_control_gain_*(angle_R - following_angle_);

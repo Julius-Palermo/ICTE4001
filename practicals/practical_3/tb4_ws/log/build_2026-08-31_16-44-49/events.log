@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.000578] (tb4_cpp_prac3) JobQueued: {'identifier': 'tb4_cpp_prac3', 'dependencies': OrderedDict()}
+[0.000732] (tb4_cpp_prac3) JobStarted: {'identifier': 'tb4_cpp_prac3'}
+[0.007807] (tb4_cpp_prac3) JobProgress: {'identifier': 'tb4_cpp_prac3', 'progress': 'cmake'}
+[0.008403] (tb4_cpp_prac3) JobProgress: {'identifier': 'tb4_cpp_prac3', 'progress': 'build'}
+[0.009221] (tb4_cpp_prac3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3', '--', '-j6', '-l6'], 'cwd': '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '162926'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus,guid=7716bb8353d2c9f7c59fb40b6a95278c'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-06:@/tmp/.ICE-unix/162926,unix/V-2204-HPLC-06:/tmp/.ICE-unix/162926'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44cb47db_0635_49b9_a661_7b3f3e3188e2'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1002/bus,guid=7716bb8353d2c9f7c59fb40b6a95278c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069127] (tb4_cpp_prac3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wall_follower\x1b[0m\n'}
+[0.076561] (tb4_cpp_prac3) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/person_follower.dir/src/person_follower.cpp.o\x1b[0m\n'}
+[0.086001] (tb4_cpp_prac3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o\x1b[0m\n'}
+[0.099589] (-) TimerEvent: {}
+[0.199923] (-) TimerEvent: {}
+[0.300404] (-) TimerEvent: {}
+[0.400827] (-) TimerEvent: {}
+[0.501260] (-) TimerEvent: {}
+[0.601650] (-) TimerEvent: {}
+[0.701995] (-) TimerEvent: {}
+[0.802401] (-) TimerEvent: {}
+[0.902780] (-) TimerEvent: {}
+[1.003151] (-) TimerEvent: {}
+[1.103567] (-) TimerEvent: {}
+[1.203948] (-) TimerEvent: {}
+[1.304321] (-) TimerEvent: {}
+[1.404702] (-) TimerEvent: {}
+[1.505106] (-) TimerEvent: {}
+[1.605467] (-) TimerEvent: {}
+[1.705887] (-) TimerEvent: {}
+[1.806281] (-) TimerEvent: {}
+[1.906688] (-) TimerEvent: {}
+[2.007028] (-) TimerEvent: {}
+[2.107401] (-) TimerEvent: {}
+[2.207755] (-) TimerEvent: {}
+[2.308134] (-) TimerEvent: {}
+[2.408517] (-) TimerEvent: {}
+[2.466327] (tb4_cpp_prac3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.466605] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.466669] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.466721] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.466767] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.466812] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.466859] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.466904] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.466950] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.466998] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.467046] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.467125] (tb4_cpp_prac3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:9\x1b[m\x1b[K:\n'}
+[2.467175] (tb4_cpp_prac3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KWallFollower::WallFollower()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.467225] (tb4_cpp_prac3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:49:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%lld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.467289] (tb4_cpp_prac3) StderrLine: {'line': b'   49 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"wall_side: %lld"\x1b[m\x1b[K, \x1b[32m\x1b[Kwall_side_\x1b[m\x1b[K);\n'}
+[2.467336] (tb4_cpp_prac3) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.467384] (tb4_cpp_prac3) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.467435] (tb4_cpp_prac3) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[Kint64_t {aka long int}\x1b[m\x1b[K\n'}
+[2.467482] (tb4_cpp_prac3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:49:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.467529] (tb4_cpp_prac3) StderrLine: {'line': b'   49 |         RCLCPP_INFO(this->get_logger(), "wall_side: \x1b[01;36m\x1b[K%lld\x1b[m\x1b[K", wall_side_);\n'}
+[2.467573] (tb4_cpp_prac3) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[2.467620] (tb4_cpp_prac3) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.467675] (tb4_cpp_prac3) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[Klong long int\x1b[m\x1b[K\n'}
+[2.467764] (tb4_cpp_prac3) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.508642] (-) TimerEvent: {}
+[2.609130] (-) TimerEvent: {}
+[2.709588] (-) TimerEvent: {}
+[2.809946] (-) TimerEvent: {}
+[2.910383] (-) TimerEvent: {}
+[3.010747] (-) TimerEvent: {}
+[3.111142] (-) TimerEvent: {}
+[3.211495] (-) TimerEvent: {}
+[3.311882] (-) TimerEvent: {}
+[3.412290] (-) TimerEvent: {}
+[3.512635] (-) TimerEvent: {}
+[3.612978] (-) TimerEvent: {}
+[3.713412] (-) TimerEvent: {}
+[3.813768] (-) TimerEvent: {}
+[3.914138] (-) TimerEvent: {}
+[4.014527] (-) TimerEvent: {}
+[4.115053] (-) TimerEvent: {}
+[4.215722] (-) TimerEvent: {}
+[4.319144] (-) TimerEvent: {}
+[4.419504] (-) TimerEvent: {}
+[4.519931] (-) TimerEvent: {}
+[4.620333] (-) TimerEvent: {}
+[4.720712] (-) TimerEvent: {}
+[4.821142] (-) TimerEvent: {}
+[4.921535] (-) TimerEvent: {}
+[5.021910] (-) TimerEvent: {}
+[5.122377] (-) TimerEvent: {}
+[5.225258] (-) TimerEvent: {}
+[5.325611] (-) TimerEvent: {}
+[5.426041] (-) TimerEvent: {}
+[5.526466] (-) TimerEvent: {}
+[5.626809] (-) TimerEvent: {}
+[5.730274] (-) TimerEvent: {}
+[5.830633] (-) TimerEvent: {}
+[5.930981] (-) TimerEvent: {}
+[6.033183] (-) TimerEvent: {}
+[6.133562] (-) TimerEvent: {}
+[6.233933] (-) TimerEvent: {}
+[6.334293] (-) TimerEvent: {}
+[6.436138] (-) TimerEvent: {}
+[6.536540] (-) TimerEvent: {}
+[6.642133] (-) TimerEvent: {}
+[6.742486] (-) TimerEvent: {}
+[6.844185] (-) TimerEvent: {}
+[6.944544] (-) TimerEvent: {}
+[7.047133] (-) TimerEvent: {}
+[7.147610] (-) TimerEvent: {}
+[7.248031] (-) TimerEvent: {}
+[7.348513] (-) TimerEvent: {}
+[7.448830] (-) TimerEvent: {}
+[7.549133] (-) TimerEvent: {}
+[7.649483] (-) TimerEvent: {}
+[7.749808] (-) TimerEvent: {}
+[7.850483] (-) TimerEvent: {}
+[7.950788] (-) TimerEvent: {}
+[8.052269] (-) TimerEvent: {}
+[8.152610] (-) TimerEvent: {}
+[8.253096] (-) TimerEvent: {}
+[8.353422] (-) TimerEvent: {}
+[8.453756] (-) TimerEvent: {}
+[8.554114] (-) TimerEvent: {}
+[8.654475] (-) TimerEvent: {}
+[8.754843] (-) TimerEvent: {}
+[8.855134] (-) TimerEvent: {}
+[8.955473] (-) TimerEvent: {}
+[9.055814] (-) TimerEvent: {}
+[9.156160] (-) TimerEvent: {}
+[9.256486] (-) TimerEvent: {}
+[9.356874] (-) TimerEvent: {}
+[9.457333] (-) TimerEvent: {}
+[9.557694] (-) TimerEvent: {}
+[9.658096] (-) TimerEvent: {}
+[9.706714] (tb4_cpp_prac3) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable person_follower\x1b[0m\n'}
+[9.747919] (tb4_cpp_prac3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wall_follower\x1b[0m\n'}
+[9.758278] (-) TimerEvent: {}
+[9.858652] (-) TimerEvent: {}
+[9.959098] (-) TimerEvent: {}
+[10.059482] (-) TimerEvent: {}
+[10.141687] (tb4_cpp_prac3) StdoutLine: {'line': b'[100%] Built target person_follower\n'}
+[10.159604] (-) TimerEvent: {}
+[10.181127] (tb4_cpp_prac3) StdoutLine: {'line': b'[100%] Built target wall_follower\n'}
+[10.193139] (tb4_cpp_prac3) CommandEnded: {'returncode': 0}
+[10.193859] (tb4_cpp_prac3) JobProgress: {'identifier': 'tb4_cpp_prac3', 'progress': 'install'}
+[10.202908] (tb4_cpp_prac3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3'], 'cwd': '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('OLDPWD', '/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '162926'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1002/bus,guid=7716bb8353d2c9f7c59fb40b6a95278c'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/V-2204-HPLC-06:@/tmp/.ICE-unix/162926,unix/V-2204-HPLC-06:/tmp/.ICE-unix/162926'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/44cb47db_0635_49b9_a661_7b3f3e3188e2'), ('XDG_RUNTIME_DIR', '/run/user/1002'), ('DISPLAY', ':100'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1002/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1002/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1002/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1002/bus,guid=7716bb8353d2c9f7c59fb40b6a95278c'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.211559] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.211753] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower\n'}
+[10.222159] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower" to ""\n'}
+[10.222396] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower\n'}
+[10.223958] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower" to ""\n'}
+[10.224229] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac3\n'}
+[10.224308] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac3\n'}
+[10.224372] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.sh\n'}
+[10.224420] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.dsv\n'}
+[10.224467] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.sh\n'}
+[10.224515] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.dsv\n'}
+[10.224561] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.bash\n'}
+[10.224606] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.sh\n'}
+[10.224672] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.zsh\n'}
+[10.224718] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.dsv\n'}
+[10.224763] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.dsv\n'}
+[10.224807] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/packages/tb4_cpp_prac3\n'}
+[10.224859] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config.cmake\n'}
+[10.224906] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config-version.cmake\n'}
+[10.224953] (tb4_cpp_prac3) StdoutLine: {'line': b'-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.xml\n'}
+[10.228514] (tb4_cpp_prac3) CommandEnded: {'returncode': 0}
+[10.248760] (tb4_cpp_prac3) JobEnded: {'identifier': 'tb4_cpp_prac3', 'rc': 0}
+[10.250168] (-) EventReactorShutdown: {}
