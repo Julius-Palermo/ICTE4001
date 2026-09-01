@@ -1,0 +1,28 @@
+[0.005s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 -- -j24 -l24
+[0.028s] [35m[1mConsolidate compiler generated dependencies of target wall_follower[0m
+[0.033s] [ 50%] Built target person_follower
+[0.034s] [ 75%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[3.363s] [100%] [32m[1mLinking CXX executable wall_follower[0m
+[3.541s] [100%] Built target wall_follower
+[3.548s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 -- -j24 -l24
+[3.567s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3
+[3.570s] -- Install configuration: ""
+[3.570s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower
+[3.571s] -- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower
+[3.574s] -- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower" to ""
+[3.574s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac3
+[3.574s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac3
+[3.574s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.sh
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.dsv
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.sh
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.dsv
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.bash
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.sh
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.zsh
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.dsv
+[3.575s] -- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.dsv
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/packages/tb4_cpp_prac3
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config.cmake
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config-version.cmake
+[3.575s] -- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.xml
+[3.576s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3

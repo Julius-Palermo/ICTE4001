@@ -138,7 +138,15 @@ void PersonFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr 
   {
     // Assigns angular and linear velocities to the cmd_vel_msg based on proportional control using gains (angle_control_gain_ and following_distance_control_gain_).
     cmd_vel_msg.angular.z = angle_control_gain_*(angle_R - following_angle_);
-    cmd_vel_msg.linear.x = followindistance_control_gain_*(min_value - following_distance_);
+    double temp_dist = followindistance_control_gain_*(min_value - following_distance_);
+    if(temp_dist < 0)
+    {
+          cmd_vel_msg.linear.x = 0;
+    }
+    else
+    {
+      cmd_vel_msg.linear.x = temp_dist;
+    }
     RCLCPP_INFO(this->get_logger(), "linear x: %.2f, angular z: %.2f", cmd_vel_msg.linear.x, cmd_vel_msg.angular.z);
   }
   else
@@ -178,7 +186,7 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
     if (param_type == ParameterType::PARAMETER_DOUBLE) {
       if (param_name == "following_angle") {
         following_angle_ = parameter.as_double();
-        if(abs(following_angle_)>PI/4)
+        if(abs(following_angle_)>PI/4.0)
         {
           RCLCPP_WARN(this->get_logger(), "You've set following_angle to be too high"
           " this isn't allowed, so the alpha1 will be set to be zero.");
@@ -190,7 +198,7 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
     if (param_type == ParameterType::PARAMETER_DOUBLE) {
         if (param_name == "angle_control_gain") {
           angle_control_gain_ = parameter.as_double();
-          if(angle_control_gain_<=0)
+          if(angle_control_gain_<=0.0)
           {
             RCLCPP_WARN(this->get_logger(), "You've set angle_control_gain to be too low"
             " this isn't allowed, so the alpha1 will be set to be 1.");
@@ -202,7 +210,7 @@ PersonFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> paramet
     if (param_type == ParameterType::PARAMETER_DOUBLE) {
         if (param_name == "distance_control_gain") {
           followindistance_control_gain_ = parameter.as_double();
-          if(followindistance_control_gain_<=0)
+          if(followindistance_control_gain_<=0.0)
           {
             RCLCPP_WARN(this->get_logger(), "You've set distance_control_gain to be too low"
             " this isn't allowed, so the alpha1 will be set to be 0.5.");

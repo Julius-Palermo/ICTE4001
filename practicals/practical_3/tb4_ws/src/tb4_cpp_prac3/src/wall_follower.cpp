@@ -29,12 +29,12 @@ public:
         auto buffer_zone_desc = rcl_interfaces::msg::ParameterDescriptor{};
         buffer_zone_desc.description = "A positive value used to determine whether the tracking control is on or off";
         // Declare parameters
-        this->declare_parameter<double>("following_distance", 0.7);
+        this->declare_parameter<double>("following_distance", 0.5);
         this->declare_parameter<int64_t>("wall_side", 1, wall_side_desc);
-        this->declare_parameter<double>("buffer_zone", 0.4, buffer_zone_desc);
-        this->declare_parameter<double>("forward_velocity", 0.4);
-        this->declare_parameter<double>("angle_control_gain_1", 1.0);
-        this->declare_parameter<double>("angle_control_gain_2", 1.0);
+        this->declare_parameter<double>("buffer_zone", 0.2, buffer_zone_desc);
+        this->declare_parameter<double>("forward_velocity", 0.3);
+        this->declare_parameter<double>("angle_control_gain_1", 3.0);
+        this->declare_parameter<double>("angle_control_gain_2", 1.8);
         this->declare_parameter<double>("distance_control_gain", 0.5);
         // Get parameter values
         this->get_parameter("following_distance", following_distance_);
@@ -141,7 +141,7 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
     );
     // Extracts the actual minimum value from the iterator obtained in the previous step.
     double min_value = *min_distance;
-    RCLCPP_INFO(this->get_logger(), "min value: %.2lf", min_value);
+    // RCLCPP_INFO(this->get_logger(), "min value: %.2lf", min_value);
     // Calculates the index of the minimum value in the ranges vector by finding the distance between the beginning of the vector and the iterator pointing to the minimum value.
     int min_index = std::distance(scan_msg->ranges.begin(), min_distance);
     // Calculate the angle corresponding to the index of the minimum value.
@@ -151,7 +151,7 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
     {
         angle_R -= 2*PI;
     }
-    RCLCPP_INFO(this->get_logger(), "angle_R in PI: %.2lf", angle_R/PI);
+    // RCLCPP_INFO(this->get_logger(), "angle_R in PI: %.2lf", angle_R/PI);
 
     geometry_msgs::msg::Twist cmd_vel_msg;
 
@@ -159,38 +159,62 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
     {
         if(min_value > (following_distance_ + buffer_zone_))
         {
-            cmd_vel_msg.linear.x = 0;
+            cmd_vel_msg.linear.x = 0.2;
             if(angle_R > PI/4.0)
             {
-                cmd_vel_msg.angular.z = 1.0;
+                cmd_vel_msg.angular.z = 0.6;
             }
             else if(angle_R < -PI/4.0)
             {
-                cmd_vel_msg.angular.z = -1.0;
+                cmd_vel_msg.angular.z = -0.6;
             }
             else
             {
+                RCLCPP_INFO(this->get_logger(), "moving forward, no turn");
                 cmd_vel_msg.angular.z = 0;
                 cmd_vel_msg.linear.x = forward_velocity_;
             }
+        }
+        else if(min_value < (following_distance_ - buffer_zone_))
+        {
+            cmd_vel_msg.linear.x = 0.2;
+            if(0.0 < angle_R && angle_R < 2.0)
+            {
+                cmd_vel_msg.angular.z = -0.6;
+            }
+            else if(-2.0 < angle_R && angle_R < 0.0)
+            {
+                cmd_vel_msg.angular.z = 0.6;
+            }
+            else
+            {
+                RCLCPP_INFO(this->get_logger(), "moving forward, no turn");
+                cmd_vel_msg.angular.z = 0;
+                cmd_vel_msg.linear.x = forward_velocity_;
+            }
+
         }
         else
         {
             if(wall_side_ > 0)
             {
                 double angle_diff = angle_R - following_angle_;
+                cmd_vel_msg.linear.x = forward_velocity_;
                 if(abs(angle_diff) > PI/10.0)
                 {
+                    // RCLCPP_INFO(this->get_logger(), "following wall 1");
                     cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff + angle_control_gain_2_ * min_value * (std::sin(angle_diff) / angle_diff);
                 }
                 else
                 {
+                    // RCLCPP_INFO(this->get_logger(), "following wall 2");
                     cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff + angle_control_gain_2_ * min_value;
                 }
             }
             else
             {
                 double angle_diff = angle_R - following_angle_;
+                cmd_vel_msg.linear.x = forward_velocity_;
                 if(abs(angle_diff) > PI/10.0)
                 {
                     cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * min_value * (std::sin(angle_diff) / angle_diff);
@@ -282,10 +306,12 @@ WallFollower::dynamicParametersCallback(std::vector<rclcpp::Parameter> parameter
         if (param_type == ParameterType::PARAMETER_INTEGER) {
             if (param_name == "wall_side") {
                 wall_side_ = parameter.as_int();
-                if(wall_side_!=1 || wall_side_!=-1)
+                RCLCPP_INFO(this->get_logger(), "wall_side: %ld", wall_side_);
+
+                if(abs(wall_side_) != 1)
                 {
-                RCLCPP_WARN(this->get_logger(), "Value has to be either 1 or -1, setting to default value");
-                wall_side_ = 1;
+                    RCLCPP_WARN(this->get_logger(), "Value has to be either 1 or -1, setting to default value");
+                    wall_side_ = 1;
                 }
             }
 

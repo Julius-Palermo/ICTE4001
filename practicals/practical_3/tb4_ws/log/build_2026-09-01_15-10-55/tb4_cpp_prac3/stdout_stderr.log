@@ -1,0 +1,34 @@
+[35m[1mConsolidate compiler generated dependencies of target wall_follower[0m
+[ 50%] Built target person_follower
+[ 75%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:[m[K In member function ‘[01m[Kvoid WallFollower::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:181:18:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  181 |             if([01;35m[K0 < angle_R[m[K < 3.0*PI/4.0)
+      |                [01;35m[K~~^~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:185:43:[m[K [01;35m[Kwarning: [m[Kcomparison of constant ‘[01m[K0[m[K’ with boolean expression is always false [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wbool-compare-Wbool-compare]8;;[m[K]
+  185 |             else if([01;35m[K-3.0*PI/4.0 < angle_R < 0[m[K)
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:185:33:[m[K [01;35m[Kwarning: [m[Kcomparisons like ‘[01m[KX<=Y<=Z[m[K’ do not have their mathematical meaning [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  185 |             else if([01;35m[K-3.0*PI/4.0 < angle_R[m[K < 0)
+      |                     [01;35m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable wall_follower[0m
+[100%] Built target wall_follower
+-- Install configuration: ""
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/person_follower
+-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower
+-- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/lib/tb4_cpp_prac3/wall_follower" to ""
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac3
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac3
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/environment/path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.bash
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.zsh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/local_setup.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/ament_index/resource_index/packages/tb4_cpp_prac3
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/cmake/tb4_cpp_prac3Config-version.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/install/tb4_cpp_prac3/share/tb4_cpp_prac3/package.xml
