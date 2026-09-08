@@ -1,0 +1,10 @@
+[01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:[m[K In member function ‘[01m[Kvoid WallFollower::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:238:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_diff[m[K’ was not declared in this scope
+  238 |                     cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * [01;31m[Kdistance_diff[m[K * (std::sin(angle_diff) / angle_diff);
+      |                                                                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:242:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_diff[m[K’ was not declared in this scope
+  242 |                     cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * [01;31m[Kdistance_diff[m[K;
+      |                                                                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wall_follower.dir/build.make:76: CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_follower.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

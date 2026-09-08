@@ -31,10 +31,10 @@ public:
         // Declare parameters
         this->declare_parameter<double>("following_distance", 0.5);
         this->declare_parameter<int64_t>("wall_side", 1, wall_side_desc);
-        this->declare_parameter<double>("buffer_zone", 0.2, buffer_zone_desc);
-        this->declare_parameter<double>("forward_velocity", 0.3);
-        this->declare_parameter<double>("angle_control_gain_1", 3.0);
-        this->declare_parameter<double>("angle_control_gain_2", 1.8);
+        this->declare_parameter<double>("buffer_zone", 0.4, buffer_zone_desc);
+        this->declare_parameter<double>("forward_velocity", 0.2);
+        this->declare_parameter<double>("angle_control_gain_1", 2.5);
+        this->declare_parameter<double>("angle_control_gain_2", 0.8);
         this->declare_parameter<double>("distance_control_gain", 0.5);
         // Get parameter values
         this->get_parameter("following_distance", following_distance_);
@@ -157,71 +157,90 @@ void WallFollower::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr sc
 
     if(min_value < scan_msg->range_max)
     {
-        if(min_value > (following_distance_ + buffer_zone_))
+        // if(min_value > (following_distance_ + buffer_zone_))
+        // {
+        //     cmd_vel_msg.linear.x = 0.2;
+        //     if(angle_R > PI/4.0)
+        //     {
+        //         cmd_vel_msg.angular.z = 0.6;
+        //     }
+        //     else if(angle_R < -PI/4.0)
+        //     {
+        //         cmd_vel_msg.angular.z = -0.6;
+        //     }
+        //     else
+        //     {
+        //         RCLCPP_INFO(this->get_logger(), "moving forward, no turn");
+        //         cmd_vel_msg.angular.z = 0;
+        //         cmd_vel_msg.linear.x = forward_velocity_;
+        //     }
+        // }
+        if(min_value>(following_distance_+buffer_zone_))
         {
-            cmd_vel_msg.linear.x = 0.2;
-            if(angle_R > PI/4.0)
+            
+            if(abs(angle_R)>PI/4.0)
             {
-                cmd_vel_msg.angular.z = 0.6;
-            }
-            else if(angle_R < -PI/4.0)
-            {
-                cmd_vel_msg.angular.z = -0.6;
+                cmd_vel_msg.linear.x = 0.0;
+                if(angle_R>PI/4.0)
+                    cmd_vel_msg.angular.z = 1.0;
+                else
+                    cmd_vel_msg.angular.z = -1.0;
             }
             else
             {
-                RCLCPP_INFO(this->get_logger(), "moving forward, no turn");
                 cmd_vel_msg.angular.z = 0;
                 cmd_vel_msg.linear.x = forward_velocity_;
             }
         }
-        else if(min_value < (following_distance_ - buffer_zone_))
-        {
-            cmd_vel_msg.linear.x = 0.2;
-            if(0.0 < angle_R && angle_R < 2.0)
-            {
-                cmd_vel_msg.angular.z = -0.6;
-            }
-            else if(-2.0 < angle_R && angle_R < 0.0)
-            {
-                cmd_vel_msg.angular.z = 0.6;
-            }
-            else
-            {
-                RCLCPP_INFO(this->get_logger(), "moving forward, no turn");
-                cmd_vel_msg.angular.z = 0;
-                cmd_vel_msg.linear.x = forward_velocity_;
-            }
+        // else if(min_value < (following_distance_ - buffer_zone_))
+        // {
+        //     cmd_vel_msg.linear.x = 0.2;
+        //     if(0.0 < angle_R && angle_R < 2.0)
+        //     {
+        //         cmd_vel_msg.angular.z = -0.6;
+        //     }
+        //     else if(-2.0 < angle_R && angle_R < 0.0)
+        //     {
+        //         cmd_vel_msg.angular.z = 0.6;
+        //     }
+        //     else
+        //     {
+        //         RCLCPP_INFO(this->get_logger(), "moving forward, no turn");
+        //         cmd_vel_msg.angular.z = 0;
+        //         cmd_vel_msg.linear.x = forward_velocity_;
+        //     }
 
-        }
+        // }
         else
         {
             if(wall_side_ > 0)
             {
                 double angle_diff = angle_R - following_angle_;
+                double distance_diff = min_value - following_distance_;
                 cmd_vel_msg.linear.x = forward_velocity_;
                 if(abs(angle_diff) > PI/10.0)
                 {
                     // RCLCPP_INFO(this->get_logger(), "following wall 1");
-                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff + angle_control_gain_2_ * min_value * (std::sin(angle_diff) / angle_diff);
+                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff + angle_control_gain_2_ * distance_diff * (std::sin(angle_diff) / angle_diff);
                 }
                 else
                 {
                     // RCLCPP_INFO(this->get_logger(), "following wall 2");
-                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff + angle_control_gain_2_ * min_value;
+                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff + angle_control_gain_2_ * distance_diff;
                 }
             }
             else
             {
                 double angle_diff = angle_R - following_angle_;
+                double distance_diff = min_value - following_distance_;
                 cmd_vel_msg.linear.x = forward_velocity_;
                 if(abs(angle_diff) > PI/10.0)
                 {
-                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * min_value * (std::sin(angle_diff) / angle_diff);
+                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * distance_diff * (std::sin(angle_diff) / angle_diff);
                 }
                 else
                 {
-                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * min_value;
+                    cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * distance_diff;
                 }
             }
         }

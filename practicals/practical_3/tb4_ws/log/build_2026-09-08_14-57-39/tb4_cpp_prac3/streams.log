@@ -1,0 +1,15 @@
+[0.005s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 -- -j24 -l24
+[0.027s] [35m[1mConsolidate compiler generated dependencies of target wall_follower[0m
+[0.033s] [ 50%] Built target person_follower
+[0.034s] [ 75%] [32mBuilding CXX object CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o[0m
+[0.919s] [01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:[m[K In member function ‘[01m[Kvoid WallFollower::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.919s] [01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:238:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_diff[m[K’ was not declared in this scope
+[0.919s]   238 |                     cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * [01;31m[Kdistance_diff[m[K * (std::sin(angle_diff) / angle_diff);
+[0.919s]       |                                                                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[0.919s] [01m[K/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/src/tb4_cpp_prac3/src/wall_follower.cpp:242:106:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistance_diff[m[K’ was not declared in this scope
+[0.919s]   242 |                     cmd_vel_msg.angular.z = angle_control_gain_1_ * angle_diff - angle_control_gain_2_ * [01;31m[Kdistance_diff[m[K;
+[0.919s]       |                                                                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[1.930s] gmake[2]: *** [CMakeFiles/wall_follower.dir/build.make:76: CMakeFiles/wall_follower.dir/src/wall_follower.cpp.o] Error 1
+[1.930s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/wall_follower.dir/all] Error 2
+[1.930s] gmake: *** [Makefile:146: all] Error 2
+[1.934s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_3/tb4_ws/build/tb4_cpp_prac3 -- -j24 -l24
