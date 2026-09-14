@@ -46,6 +46,8 @@ namespace iar_amcl
                 /* TODO TASK - MILSTONE 1.1 
                     Compute the pose of the lidar sensor.
                 */
+                // Implemets line 3-6 of algorithm one translates the sensor offset (Tsens) seld -> laser_pose_ into the global frame using the particle's pose pose_robt.
+                // pose_robot.v[0], .v[1], .v[2] correspond to xr, yr, θr. This directly mirrors the equations in the algorithm (xs, ys, θs).
                 // Get the lidar-to-robot transform (Tsens)
                 pf_vector_t lidar_pose_to_robot = self->laser_pose_;
 
@@ -75,6 +77,7 @@ namespace iar_amcl
                     /* TODO TASK - MILESTONE 1.2
                         Check whether the laser beam's value is infinity, if yes, skip this beam measurement
                     */
+                    // implemets line 10-11 in the algorithm if invalid continue
                     if (std::isinf(obs_range)) 
                     {
                     continue;
@@ -84,6 +87,7 @@ namespace iar_amcl
                         TODO TASK - MILESTONE 1.3
                         Check whether a failure measurement is detected, i.e., max range is detected. If yes, update the probability
                     */
+                    // implements line 12-13 check if a faliure such as max range is detected set into selection statment with the rest of 1.4
                     if (obs_range >= data->range_max) {
                     pz += self->z_max_;
                     }
@@ -93,6 +97,7 @@ namespace iar_amcl
                         TODO TASK - MILESTONE 1.4
                         Process a beam with range measurement less than the maximum value.
                     */
+                    // lines 15-23 of the algirithm beam didnt hit max range, adds a small random noise, figure out where the beam landed, check witht the map if there is actully a wall, look how far the point is from the nearest wall, turn distance into probability 
                     } else {
                     // Random measurement component
                     pz += self->z_rand_ / data->range_max;
