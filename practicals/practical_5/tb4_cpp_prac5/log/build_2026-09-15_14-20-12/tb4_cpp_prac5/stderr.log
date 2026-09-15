@@ -1,0 +1,30 @@
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In static member function ‘[01m[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:101:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+  101 |                     } [01;31m[Kelse[m[K {
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K At global scope:
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:136:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  136 |         [01;31m[Kreturn[m[K total_weight;
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:140:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLikelihoodFieldModel[m[K’ has not been declared
+  140 |     [01;31m[KLikelihoodFieldModel[m[K::sensorUpdate(pf_t * pf, nav2_amcl::LaserData * data)
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In function ‘[01m[Kbool sensorUpdate(pf_t*, nav2_amcl::LaserData*)[m[K’:
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:142:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_beams_[m[K’ was not declared in this scope
+  142 |         if ([01;31m[Kmax_beams_[m[K < 2) {
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:145:53:[m[K [01;31m[Kerror: [m[K‘[01m[KsensorFunction[m[K’ was not declared in this scope
+  145 |         pf_update_sensor(pf, (pf_sensor_model_fn_t) [01;31m[KsensorFunction[m[K, data);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K At global scope:
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:149:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  149 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In static member function ‘[01m[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:135:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  135 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/iar_amcl.dir/build.make:104: CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_amcl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

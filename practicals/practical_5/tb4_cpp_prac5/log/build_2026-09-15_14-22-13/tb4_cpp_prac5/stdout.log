@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target iar_amcl[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable iar_amcl[0m
+[100%] Built target iar_amcl
+-- Install configuration: ""
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/lib/tb4_cpp_prac5/iar_amcl
+-- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/lib/tb4_cpp_prac5/iar_amcl" to ""
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//launch
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//launch/localisation_launch.py
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//config
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//config/localisation.yaml
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map/office_ICTE4001_sim.yaml
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map/office_ICTE4001_sim.pgm
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac5
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac5
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/ament_prefix_path.sh
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/ament_prefix_path.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/path.sh
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/path.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.bash
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.sh
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.zsh
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/package.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/ament_index/resource_index/packages/tb4_cpp_prac5
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/cmake/tb4_cpp_prac5Config.cmake
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/cmake/tb4_cpp_prac5Config-version.cmake
+-- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/package.xml

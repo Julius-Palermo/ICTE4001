@@ -1,0 +1,10 @@
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/uninstall.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/tb4_cpp_prac5_uninstall.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/iar_amcl.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/test.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/edit_cache.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/rebuild_cache.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/list_install_components.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/install.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/install/local.dir
+/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5/CMakeFiles/install/strip.dir

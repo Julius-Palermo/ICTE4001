@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (tb4_cpp_prac5) JobQueued: {'identifier': 'tb4_cpp_prac5', 'dependencies': OrderedDict()}
+[0.000151] (tb4_cpp_prac5) JobStarted: {'identifier': 'tb4_cpp_prac5'}
+[0.003960] (tb4_cpp_prac5) JobProgress: {'identifier': 'tb4_cpp_prac5', 'progress': 'cmake'}
+[0.003978] (tb4_cpp_prac5) Command: {'cmd': ['/usr/bin/cmake', '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5', '-DCMAKE_INSTALL_PREFIX=/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5'], 'cwd': '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '422294'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=31d701a5e72ea0266c4d6a1d6aa8e03d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ICTE4001:@/tmp/.ICE-unix/422294,unix/ICTE4001:/tmp/.ICE-unix/422294'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9011fc6_b2c3_437e_9def_b6b2462fccc2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.6J9JV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=31d701a5e72ea0266c4d6a1d6aa8e03d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034561] (tb4_cpp_prac5) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.061387] (tb4_cpp_prac5) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.065338] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.097268] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.099540] (-) TimerEvent: {}
+[0.100000] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.100285] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.100315] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.101537] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.139347] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.142231] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.142314] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.142527] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.143407] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199626] (-) TimerEvent: {}
+[0.208519] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.247364] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav2_common: 1.1.15 (/opt/ros/humble/share/nav2_common/cmake)\n'}
+[0.247469] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.262571] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.264354] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.267448] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.272617] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.279829] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299781] (-) TimerEvent: {}
+[0.306066] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.307007] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.350249] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.360917] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.379750] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.383391] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.399952] (-) TimerEvent: {}
+[0.416542] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.416635] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.450532] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.451014] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.500108] (-) TimerEvent: {}
+[0.512815] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.528696] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.531190] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.555601] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.556161] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.556218] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.600265] (-) TimerEvent: {}
+[0.700526] (-) TimerEvent: {}
+[0.702058] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.735030] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.768621] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.775351] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav2_util: 1.1.15 (/opt/ros/humble/share/nav2_util/cmake)\n'}
+[0.800685] (-) TimerEvent: {}
+[0.900907] (-) TimerEvent: {}
+[0.956942] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found nav2_amcl: 1.1.15 (/opt/ros/humble/share/nav2_amcl/cmake)\n'}
+[1.001025] (-) TimerEvent: {}
+[1.101281] (-) TimerEvent: {}
+[1.201435] (-) TimerEvent: {}
+[1.301678] (-) TimerEvent: {}
+[1.401930] (-) TimerEvent: {}
+[1.422916] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for drand48\n'}
+[1.462590] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Looking for drand48 - found\n'}
+[1.502079] (-) TimerEvent: {}
+[1.602296] (-) TimerEvent: {}
+[1.702831] (-) TimerEvent: {}
+[1.803027] (-) TimerEvent: {}
+[1.903208] (-) TimerEvent: {}
+[2.003414] (-) TimerEvent: {}
+[2.103622] (-) TimerEvent: {}
+[2.203821] (-) TimerEvent: {}
+[2.303964] (-) TimerEvent: {}
+[2.404147] (-) TimerEvent: {}
+[2.504378] (-) TimerEvent: {}
+[2.585248] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.604533] (-) TimerEvent: {}
+[2.625079] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.625325] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/include;$<BUILD_INTERFACE:/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/include>\n'}
+[2.625378] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.625549] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.625603] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.625816] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.626057] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.626085] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.626292] (tb4_cpp_prac5) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.626763] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.637568] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Generating done\n'}
+[2.638281] (tb4_cpp_prac5) StdoutLine: {'line': b'-- Build files have been written to: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5\n'}
+[2.644077] (tb4_cpp_prac5) CommandEnded: {'returncode': 0}
+[2.644229] (tb4_cpp_prac5) JobProgress: {'identifier': 'tb4_cpp_prac5', 'progress': 'build'}
+[2.644240] (tb4_cpp_prac5) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5', '--', '-j24', '-l24'], 'cwd': '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'robotai'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robotai'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '422294'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=31d701a5e72ea0266c4d6a1d6aa8e03d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robotai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robotai'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ICTE4001:@/tmp/.ICE-unix/422294,unix/ICTE4001:/tmp/.ICE-unix/422294'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e9011fc6_b2c3_437e_9def_b6b2462fccc2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1001/.mutter-Xwaylandauth.6J9JV3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.131'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('ROS_DOMAIN_ID', '43'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=31d701a5e72ea0266c4d6a1d6aa8e03d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.669711] (tb4_cpp_prac5) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/main.cpp.o\x1b[0m\n'}
+[2.671266] (tb4_cpp_prac5) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o\x1b[0m\n'}
+[2.671364] (tb4_cpp_prac5) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o\x1b[0m\n'}
+[2.707107] (-) TimerEvent: {}
+[2.762306] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.762461] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:101:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99 without a previous \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.762492] (tb4_cpp_prac5) StderrLine: {'line': b'  101 |                     } \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K {\n'}
+[2.762513] (tb4_cpp_prac5) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.762531] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.762552] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:136:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.762571] (tb4_cpp_prac5) StderrLine: {'line': b'  136 |         \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K total_weight;\n'}
+[2.762587] (tb4_cpp_prac5) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.762605] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:140:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLikelihoodFieldModel\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.762622] (tb4_cpp_prac5) StderrLine: {'line': b'  140 |     \x1b[01;31m\x1b[KLikelihoodFieldModel\x1b[m\x1b[K::sensorUpdate(pf_t * pf, nav2_amcl::LaserData * data)\n'}
+[2.762640] (tb4_cpp_prac5) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.763001] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool sensorUpdate(pf_t*, nav2_amcl::LaserData*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.763057] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:142:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmax_beams_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.763093] (tb4_cpp_prac5) StderrLine: {'line': b'  142 |         if (\x1b[01;31m\x1b[Kmax_beams_\x1b[m\x1b[K < 2) {\n'}
+[2.763114] (tb4_cpp_prac5) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.764309] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:145:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsensorFunction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.764390] (tb4_cpp_prac5) StderrLine: {'line': b'  145 |         pf_update_sensor(pf, (pf_sensor_model_fn_t) \x1b[01;31m\x1b[KsensorFunction\x1b[m\x1b[K, data);\n'}
+[2.764415] (tb4_cpp_prac5) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.764436] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.764456] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:149:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.764476] (tb4_cpp_prac5) StderrLine: {'line': b'  149 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[2.764493] (tb4_cpp_prac5) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.786232] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.786357] (tb4_cpp_prac5) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:135:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type\x07-Wreturn-type\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.786383] (tb4_cpp_prac5) StderrLine: {'line': b'  135 |         \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[2.786402] (tb4_cpp_prac5) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.789266] (tb4_cpp_prac5) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/iar_amcl.dir/build.make:104: CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o] Error 1\n'}
+[2.789349] (tb4_cpp_prac5) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.807295] (-) TimerEvent: {}
+[2.907593] (-) TimerEvent: {}
+[3.007922] (-) TimerEvent: {}
+[3.108270] (-) TimerEvent: {}
+[3.208617] (-) TimerEvent: {}
+[3.308951] (-) TimerEvent: {}
+[3.409293] (-) TimerEvent: {}
+[3.509602] (-) TimerEvent: {}
+[3.609929] (-) TimerEvent: {}
+[3.710262] (-) TimerEvent: {}
+[3.810571] (-) TimerEvent: {}
+[3.910876] (-) TimerEvent: {}
+[4.011191] (-) TimerEvent: {}
+[4.111520] (-) TimerEvent: {}
+[4.211825] (-) TimerEvent: {}
+[4.312144] (-) TimerEvent: {}
+[4.412483] (-) TimerEvent: {}
+[4.512806] (-) TimerEvent: {}
+[4.613127] (-) TimerEvent: {}
+[4.713451] (-) TimerEvent: {}
+[4.813772] (-) TimerEvent: {}
+[4.914089] (-) TimerEvent: {}
+[5.014402] (-) TimerEvent: {}
+[5.114725] (-) TimerEvent: {}
+[5.215041] (-) TimerEvent: {}
+[5.315379] (-) TimerEvent: {}
+[5.415698] (-) TimerEvent: {}
+[5.516022] (-) TimerEvent: {}
+[5.616347] (-) TimerEvent: {}
+[5.716666] (-) TimerEvent: {}
+[5.816976] (-) TimerEvent: {}
+[5.917300] (-) TimerEvent: {}
+[6.017605] (-) TimerEvent: {}
+[6.117956] (-) TimerEvent: {}
+[6.218283] (-) TimerEvent: {}
+[6.318615] (-) TimerEvent: {}
+[6.418931] (-) TimerEvent: {}
+[6.519287] (-) TimerEvent: {}
+[6.619643] (-) TimerEvent: {}
+[6.719894] (-) TimerEvent: {}
+[6.820248] (-) TimerEvent: {}
+[6.920591] (-) TimerEvent: {}
+[7.020945] (-) TimerEvent: {}
+[7.121250] (-) TimerEvent: {}
+[7.221546] (-) TimerEvent: {}
+[7.321880] (-) TimerEvent: {}
+[7.422169] (-) TimerEvent: {}
+[7.522447] (-) TimerEvent: {}
+[7.622734] (-) TimerEvent: {}
+[7.723039] (-) TimerEvent: {}
+[7.823333] (-) TimerEvent: {}
+[7.923625] (-) TimerEvent: {}
+[8.023929] (-) TimerEvent: {}
+[8.124218] (-) TimerEvent: {}
+[8.224502] (-) TimerEvent: {}
+[8.324780] (-) TimerEvent: {}
+[8.425063] (-) TimerEvent: {}
+[8.525397] (-) TimerEvent: {}
+[8.625685] (-) TimerEvent: {}
+[8.725950] (-) TimerEvent: {}
+[8.826242] (-) TimerEvent: {}
+[8.926548] (-) TimerEvent: {}
+[9.026844] (-) TimerEvent: {}
+[9.127135] (-) TimerEvent: {}
+[9.227474] (-) TimerEvent: {}
+[9.327788] (-) TimerEvent: {}
+[9.428078] (-) TimerEvent: {}
+[9.528311] (-) TimerEvent: {}
+[9.628538] (-) TimerEvent: {}
+[9.728815] (-) TimerEvent: {}
+[9.829114] (-) TimerEvent: {}
+[9.929426] (-) TimerEvent: {}
+[10.029787] (-) TimerEvent: {}
+[10.130255] (-) TimerEvent: {}
+[10.230561] (-) TimerEvent: {}
+[10.330884] (-) TimerEvent: {}
+[10.431210] (-) TimerEvent: {}
+[10.531565] (-) TimerEvent: {}
+[10.624804] (tb4_cpp_prac5) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_amcl.dir/all] Error 2\n'}
+[10.625159] (tb4_cpp_prac5) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.626855] (tb4_cpp_prac5) CommandEnded: {'returncode': 2}
+[10.631625] (-) TimerEvent: {}
+[10.647428] (tb4_cpp_prac5) JobEnded: {'identifier': 'tb4_cpp_prac5', 'rc': 2}
+[10.657613] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[0.005s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5 -- -j24 -l24
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target iar_amcl[0m
+[0.039s] [ 25%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o[0m
+[0.156s] [ 50%] [32m[1mLinking CXX executable iar_amcl[0m
+[0.762s] [100%] Built target iar_amcl
+[0.768s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5 -- -j24 -l24
+[0.787s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5
+[0.792s] -- Install configuration: ""
+[0.792s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/lib/tb4_cpp_prac5/iar_amcl
+[0.795s] -- Set runtime path of "/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/lib/tb4_cpp_prac5/iar_amcl" to ""
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//launch
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//launch/localisation_launch.py
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//config
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//config/localisation.yaml
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map/office_ICTE4001_sim.yaml
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5//map/office_ICTE4001_sim.pgm
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac5
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac5
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/ament_prefix_path.sh
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/ament_prefix_path.dsv
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/path.sh
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/environment/path.dsv
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.bash
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.sh
+[0.795s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.zsh
+[0.796s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/local_setup.dsv
+[0.796s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/package.dsv
+[0.796s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/ament_index/resource_index/packages/tb4_cpp_prac5
+[0.796s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/cmake/tb4_cpp_prac5Config.cmake
+[0.796s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/cmake/tb4_cpp_prac5Config-version.cmake
+[0.796s] -- Installing: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5/share/tb4_cpp_prac5/package.xml
+[0.800s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5

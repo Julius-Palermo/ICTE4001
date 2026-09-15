@@ -1,0 +1,94 @@
+[0.004s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5 -DCMAKE_INSTALL_PREFIX=/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.061s] -- The CXX compiler identification is GNU 11.4.0
+[0.065s] -- Detecting C compiler ABI info
+[0.097s] -- Detecting C compiler ABI info - done
+[0.100s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.100s] -- Detecting C compile features
+[0.100s] -- Detecting C compile features - done
+[0.101s] -- Detecting CXX compiler ABI info
+[0.139s] -- Detecting CXX compiler ABI info - done
+[0.142s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.142s] -- Detecting CXX compile features
+[0.142s] -- Detecting CXX compile features - done
+[0.143s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.208s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.247s] -- Found nav2_common: 1.1.15 (/opt/ros/humble/share/nav2_common/cmake)
+[0.247s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.262s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.264s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.267s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.306s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.307s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.350s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.361s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.380s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.383s] -- Looking for pthread.h
+[0.416s] -- Looking for pthread.h - found
+[0.416s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.450s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.451s] -- Found Threads: TRUE  
+[0.513s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.529s] -- Found message_filters: 4.3.4 (/opt/ros/humble/share/message_filters/cmake)
+[0.531s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.556s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.556s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.556s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.702s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.735s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.769s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.775s] -- Found nav2_util: 1.1.15 (/opt/ros/humble/share/nav2_util/cmake)
+[0.957s] -- Found nav2_amcl: 1.1.15 (/opt/ros/humble/share/nav2_amcl/cmake)
+[1.423s] -- Looking for drand48
+[1.463s] -- Looking for drand48 - found
+[2.585s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.625s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.625s] -- Configured cppcheck include dirs: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/include;$<BUILD_INTERFACE:/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/include>
+[2.625s] -- Configured cppcheck exclude dirs and/or files: 
+[2.625s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.625s] -- Added test 'lint_cmake' to check CMake code style
+[2.626s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.626s] -- Added test 'uncrustify' to check C / C++ code style
+[2.626s] -- Configured uncrustify additional arguments: 
+[2.626s] -- Added test 'xmllint' to check XML markup files
+[2.627s] -- Configuring done
+[2.637s] -- Generating done
+[2.638s] -- Build files have been written to: /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5
+[2.644s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5 -DCMAKE_INSTALL_PREFIX=/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/install/tb4_cpp_prac5
+[2.644s] Invoking command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5 -- -j24 -l24
+[2.670s] [ 25%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/main.cpp.o[0m
+[2.671s] [ 75%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o[0m
+[2.671s] [ 75%] [32mBuilding CXX object CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o[0m
+[2.762s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In static member function ‘[01m[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[2.762s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:101:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+[2.762s]   101 |                     } [01;31m[Kelse[m[K {
+[2.762s]       |                       [01;31m[K^~~~[m[K
+[2.762s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K At global scope:
+[2.762s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:136:9:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[2.762s]   136 |         [01;31m[Kreturn[m[K total_weight;
+[2.762s]       |         [01;31m[K^~~~~~[m[K
+[2.762s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:140:5:[m[K [01;31m[Kerror: [m[K‘[01m[KLikelihoodFieldModel[m[K’ has not been declared
+[2.762s]   140 |     [01;31m[KLikelihoodFieldModel[m[K::sensorUpdate(pf_t * pf, nav2_amcl::LaserData * data)
+[2.762s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.763s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In function ‘[01m[Kbool sensorUpdate(pf_t*, nav2_amcl::LaserData*)[m[K’:
+[2.763s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:142:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_beams_[m[K’ was not declared in this scope
+[2.763s]   142 |         if ([01;31m[Kmax_beams_[m[K < 2) {
+[2.763s]       |             [01;31m[K^~~~~~~~~~[m[K
+[2.764s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:145:53:[m[K [01;31m[Kerror: [m[K‘[01m[KsensorFunction[m[K’ was not declared in this scope
+[2.764s]   145 |         pf_update_sensor(pf, (pf_sensor_model_fn_t) [01;31m[KsensorFunction[m[K, data);
+[2.764s]       |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.764s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K At global scope:
+[2.764s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:149:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.764s]   149 | [01;31m[K}[m[K
+[2.764s]       | [01;31m[K^[m[K
+[2.786s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:[m[K In static member function ‘[01m[Kstatic double iar_amcl::LikelihoodFieldModel::sensorFunction(nav2_amcl::LaserData*, pf_sample_set_t*)[m[K’:
+[2.786s] [01m[K/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/tb4_cpp_prac5/src/likelihood_field_model.cpp:135:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.786s]   135 |         [01;35m[K}[m[K
+[2.786s]       |         [01;35m[K^[m[K
+[2.789s] gmake[2]: *** [CMakeFiles/iar_amcl.dir/build.make:104: CMakeFiles/iar_amcl.dir/src/likelihood_field_model.cpp.o] Error 1
+[2.789s] gmake[2]: *** Waiting for unfinished jobs....
+[10.625s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/iar_amcl.dir/all] Error 2
+[10.625s] gmake: *** [Makefile:146: all] Error 2
+[10.627s] Invoked command in '/home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robotai/ICTE4001/practicals/practical_5/tb4_cpp_prac5/build/tb4_cpp_prac5 -- -j24 -l24
