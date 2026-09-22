@@ -56,7 +56,7 @@ def generate_launch_description():
     
     declare_map_yaml_cmd = DeclareLaunchArgument(
         'map',
-        default_value=os.path.join(iar_amcl_dir, 'map', 'office_ICTE4001_sim.yaml'),
+        default_value=os.path.join(iar_amcl_dir, 'map', 'lab_ICTE4001_Prac4.yaml'),
         description='Full path to map yaml file to load')
     
     declare_use_sim_time_cmd = DeclareLaunchArgument(
@@ -88,7 +88,7 @@ def generate_launch_description():
     )
     
     iar_amcl_node = Node(
-        package='tb4_cpp_prac5',
+        package='tb4_cpp_prac6',
         executable='iar_amcl',
         name='iar_amcl',
         output='screen',

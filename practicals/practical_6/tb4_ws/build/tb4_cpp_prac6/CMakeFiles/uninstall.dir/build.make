@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/practicals/practical_6/tb4_ws
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/practicals/practical_6/tb4_ws /home/robotai/ICTE4001/practicals/practical_6/tb4_ws /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

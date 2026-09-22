@@ -1,4 +1,4 @@
-# Install script for directory: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src
+# Install script for directory: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -64,9 +64,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb4_cpp_prac6/" TYPE DIRECTORY FILES
-    "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/launch"
-    "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/config"
-    "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/map"
+    "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/launch"
+    "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/config"
+    "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/map"
     )
 endif()
 
@@ -126,7 +126,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb4_cpp_prac6" TYPE FILE FILES "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/tb4_cpp_prac6" TYPE FILE FILES "/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

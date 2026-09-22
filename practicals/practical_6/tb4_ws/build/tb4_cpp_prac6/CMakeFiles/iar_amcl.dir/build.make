@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/practicals/practical_6/tb4_ws
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6
@@ -70,46 +70,46 @@ include CMakeFiles/iar_amcl.dir/progress.make
 include CMakeFiles/iar_amcl.dir/flags.make
 
 CMakeFiles/iar_amcl.dir/src/main.cpp.o: CMakeFiles/iar_amcl.dir/flags.make
-CMakeFiles/iar_amcl.dir/src/main.cpp.o: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/main.cpp
+CMakeFiles/iar_amcl.dir/src/main.cpp.o: ../../src/main.cpp
 CMakeFiles/iar_amcl.dir/src/main.cpp.o: CMakeFiles/iar_amcl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/iar_amcl.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_amcl.dir/src/main.cpp.o -MF CMakeFiles/iar_amcl.dir/src/main.cpp.o.d -o CMakeFiles/iar_amcl.dir/src/main.cpp.o -c /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/main.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_amcl.dir/src/main.cpp.o -MF CMakeFiles/iar_amcl.dir/src/main.cpp.o.d -o CMakeFiles/iar_amcl.dir/src/main.cpp.o -c /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/main.cpp
 
 CMakeFiles/iar_amcl.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iar_amcl.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/main.cpp > CMakeFiles/iar_amcl.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/main.cpp > CMakeFiles/iar_amcl.dir/src/main.cpp.i
 
 CMakeFiles/iar_amcl.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iar_amcl.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/main.cpp -o CMakeFiles/iar_amcl.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/main.cpp -o CMakeFiles/iar_amcl.dir/src/main.cpp.s
 
 CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o: CMakeFiles/iar_amcl.dir/flags.make
-CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/amcl_node.cpp
+CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o: ../../src/amcl_node.cpp
 CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o: CMakeFiles/iar_amcl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o -MF CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o.d -o CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o -c /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/amcl_node.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o -MF CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o.d -o CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o -c /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/amcl_node.cpp
 
 CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/amcl_node.cpp > CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/amcl_node.cpp > CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.i
 
 CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/amcl_node.cpp -o CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/amcl_node.cpp -o CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.s
 
 CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o: CMakeFiles/iar_amcl.dir/flags.make
-CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/iar_pf_kdtree.cpp
+CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o: ../../src/iar_pf_kdtree.cpp
 CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o: CMakeFiles/iar_amcl.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o -MF CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o.d -o CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o -c /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/iar_pf_kdtree.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o -MF CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o.d -o CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o -c /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/iar_pf_kdtree.cpp
 
 CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/iar_pf_kdtree.cpp > CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/iar_pf_kdtree.cpp > CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.i
 
 CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/src/iar_pf_kdtree.cpp -o CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src/iar_pf_kdtree.cpp -o CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.s
 
 # Object files for target iar_amcl
 iar_amcl_OBJECTS = \
@@ -124,6 +124,7 @@ iar_amcl: CMakeFiles/iar_amcl.dir/src/main.cpp.o
 iar_amcl: CMakeFiles/iar_amcl.dir/src/amcl_node.cpp.o
 iar_amcl: CMakeFiles/iar_amcl.dir/src/iar_pf_kdtree.cpp.o
 iar_amcl: CMakeFiles/iar_amcl.dir/build.make
+iar_amcl: /opt/ros/humble/lib/librclcpp_lifecycle.so
 iar_amcl: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 iar_amcl: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 iar_amcl: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
@@ -231,14 +232,14 @@ iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 iar_amcl: /opt/ros/humble/lib/librclcpp.so
 iar_amcl: /opt/ros/humble/lib/librclcpp_lifecycle.so
+iar_amcl: /opt/ros/humble/lib/librcl_lifecycle.so
+iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
+iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
+iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
+iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
+iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
+iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/libbondcpp.so
-iar_amcl: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
-iar_amcl: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
-iar_amcl: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_c.so
-iar_amcl: /opt/ros/humble/lib/libbond__rosidl_typesupport_introspection_cpp.so
-iar_amcl: /opt/ros/humble/lib/libbond__rosidl_typesupport_cpp.so
-iar_amcl: /opt/ros/humble/lib/libbond__rosidl_generator_py.so
-iar_amcl: /opt/ros/humble/lib/librclcpp_lifecycle.so
 iar_amcl: /opt/ros/humble/lib/libbond__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_c.so
 iar_amcl: /opt/ros/humble/lib/libbond__rosidl_typesupport_fastrtps_cpp.so
@@ -286,13 +287,6 @@ iar_amcl: /opt/ros/humble/lib/librcutils.so
 iar_amcl: /opt/ros/humble/lib/librcpputils.so
 iar_amcl: /opt/ros/humble/lib/libclass_loader.so
 iar_amcl: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-iar_amcl: /opt/ros/humble/lib/librcl_lifecycle.so
-iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so
-iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
-iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
-iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
-iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so
-iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
@@ -336,18 +330,23 @@ iar_amcl: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
 iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
 iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
 iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
 iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
 iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
 iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
 iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
 iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
@@ -356,6 +355,7 @@ iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/libnav2_msgs__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
@@ -363,42 +363,36 @@ iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
+iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
+iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+iar_amcl: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+iar_amcl: /opt/ros/humble/lib/librmw.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 iar_amcl: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
-iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-iar_amcl: /opt/ros/humble/lib/libfastcdr.so.1.0.29
-iar_amcl: /opt/ros/humble/lib/librmw.so
-iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+iar_amcl: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 iar_amcl: /opt/ros/humble/lib/libbond__rosidl_generator_c.so
-iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/librosidl_typesupport_c.so
 iar_amcl: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 iar_amcl: /opt/ros/humble/lib/librosidl_runtime_c.so
-iar_amcl: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 iar_amcl: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 iar_amcl: /opt/ros/humble/lib/librcpputils.so
 iar_amcl: /opt/ros/humble/lib/librcutils.so
@@ -415,6 +409,6 @@ CMakeFiles/iar_amcl.dir/clean:
 .PHONY : CMakeFiles/iar_amcl.dir/clean
 
 CMakeFiles/iar_amcl.dir/depend:
-	cd /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/src /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6/CMakeFiles/iar_amcl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/practicals/practical_6/tb4_ws /home/robotai/ICTE4001/practicals/practical_6/tb4_ws /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/build/tb4_cpp_prac6/CMakeFiles/iar_amcl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/iar_amcl.dir/depend
 

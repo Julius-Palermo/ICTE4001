@@ -1,0 +1,25 @@
+[100%] Built target iar_amcl
+-- Install configuration: ""
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/lib/tb4_cpp_prac6/iar_amcl
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//launch
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//launch/localisation_launch.py
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//config
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//config/localisation.yaml
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//map
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//map/lab_ICTE4001_Prac4.pgm
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//map/lab_ICTE4001_Prac4.yaml
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac6
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac6
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/environment/path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/environment/path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/local_setup.bash
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/local_setup.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/local_setup.zsh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/local_setup.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/package.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/ament_index/resource_index/packages/tb4_cpp_prac6
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/cmake/tb4_cpp_prac6Config.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/cmake/tb4_cpp_prac6Config-version.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/package.xml

@@ -1,8 +1,8 @@
 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/lib/tb4_cpp_prac6/iar_amcl
 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//launch/localisation_launch.py
 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//config/localisation.yaml
-/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//map/office_ICTE4001_sim.yaml
-/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//map/office_ICTE4001_sim.pgm
+/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//map/lab_ICTE4001_Prac4.pgm
+/home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6//map/lab_ICTE4001_Prac4.yaml
 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac6
 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac6
 /home/robotai/ICTE4001/practicals/practical_6/tb4_ws/install/tb4_cpp_prac6/share/tb4_cpp_prac6/environment/ament_prefix_path.sh
