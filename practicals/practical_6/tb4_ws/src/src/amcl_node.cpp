@@ -1566,6 +1566,10 @@ AmclNode::pf_resample(pf_t * pf){
     Calculate the cumulative importance weight here for resampling purpose, and save 
     to the array "cd_old_set"
   */
+  cd_old_set[0] = 0.0;
+  for (int i = 0; i < old_particle_set->sample_count; i++){
+    cd_old_set[i+1] = cd_old_set[i] + old_particle_set->samples[i].weight;
+  }
 
 
   /* TODO TASK - MILESTONE #1
@@ -1578,7 +1582,10 @@ AmclNode::pf_resample(pf_t * pf){
   /* TODO TASK - MILESTONE #2
     calculate w_diff = 1 - w_fast /w_slow, and if w_diff < 0, set it to zero
   */
-
+  double w_diff = 1.0 - pf->w_fast / pf->w_slow;
+  if(w_diff < 0.0){
+    w_diff = 0.0;
+  }
 
   while(new_particle_set->sample_count < pf->max_samples)
   {
@@ -1588,15 +1595,25 @@ AmclNode::pf_resample(pf_t * pf){
       /* TODO TASK - MILESTONE #3
         Generate uniformly distributed samples according to a probability of w_diff
       */
+      sample_in_new_set->pose = (pf->random_pose_fn)(reinterpret_cast<void *>(map_));
     } 
     else {
       /* TODO TASK - MILESTONE # 4.2
         Generate samples based on weight 
       */
+      double r = drand48() * cd_old_set[old_particle_set->sample_count];
+      int i = 0;
+      while ((i < old_particle_set->sample_count - 1) && (cd_old_set[i+1] < r)){
+        i++;
+      }
+      sample_in_old_set = old_particle_set->samples + i;
+      sample_in_new_set->pose = sample_in_old_set->pose;
     }
     /* TODO TASK - MILESTONE # 5
       Allocate weights to new particles, and calculate total weights
     */
+    sample_in_new_set->weight = 1.0;
+    total_weight += sample_in_new_set->weight;
 
 
     iar_amcl::pf_kdtree_insert(new_particle_set->kdtree, sample_in_new_set->pose, sample_in_new_set->weight);
@@ -1609,9 +1626,24 @@ AmclNode::pf_resample(pf_t * pf){
     int M;
     int k = new_particle_set->kdtree->leaf_count;
 
+    if(k <= 1){
+      M = pf->max_samples;
+    }
+    else{
+      double kd = static_cast<double>(k-1);
+      double x = 1.0 - 2.0 / (9.0 * kd) + std::sqrt(2.0 / (9.0 * kd)) * pf->pop_z;
+      M = static_cast<int>(std::ceil((kd / (2.0 * pf->pop_err)) * x * x * x));
+      if (M < pf->min_samples){
+        M = pf->min_samples;
+      }
+    }
+
     /* TODO TASK - MILESTONE # 7
       Check whether number of samples in the new particle set is larger than M, if yes, break the resampling.
     */
+    if (new_particle_set->sample_count > M){
+      break;
+    }
   }
 
 
@@ -1621,6 +1653,9 @@ AmclNode::pf_resample(pf_t * pf){
   /* TODO TASK - MILESTONE # 8
     Normalised the weights in the new particle set
   */
+  for (int i = 0; i < new_particle_set->sample_count; i++){
+    new_particle_set->samples[i].weight /= total_weight;
+  }
 
 
    pf_cluster_stats(pf, new_particle_set);
