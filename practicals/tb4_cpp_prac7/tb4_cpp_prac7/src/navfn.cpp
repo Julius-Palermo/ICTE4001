@@ -478,7 +478,7 @@ namespace iar_astar_planner
                 find a cell with minimum potential, and save its index to stc, and its
                 potential to ''minp"
             */
-           if (potarr_[stc - 1] < minp)      { minp = potarr_[stc - 1];      minc = stc - 1; }
+            if (potarr_[stc - 1] < minp)      { minp = potarr_[stc - 1];      minc = stc - 1; }
             if (potarr_[stc + 1] < minp)      { minp = potarr_[stc + 1];      minc = stc + 1; }
             if (potarr_[stcpx] < minp)        { minp = potarr_[stcpx];        minc = stcpx; }
             if (potarr_[stcnx] < minp)        { minp = potarr_[stcnx];        minc = stcnx; }
