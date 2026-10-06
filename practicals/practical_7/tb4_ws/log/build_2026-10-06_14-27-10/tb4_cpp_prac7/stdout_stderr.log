@@ -1,0 +1,35 @@
+[100%] Built target iar_astar_planner
+-- Install configuration: ""
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/iar_astar_planner.xml
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/include
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/include/iar_astar_planner
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/include/iar_astar_planner/navfn.hpp
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/include/iar_astar_planner/iar_astar_planner.hpp
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/lib/libiar_astar_planner.so
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7//launch
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7//launch/navigation_launch.py
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7//config
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7//config/nav2_params.yaml
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/library_path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/library_path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac7
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac7
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/path.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/path.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.bash
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.sh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.zsh
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.dsv
+-- Installing: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/package.dsv
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/ament_index/resource_index/packages/tb4_cpp_prac7
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/ament_index/resource_index/nav2_core__pluginlib__plugin/tb4_cpp_prac7
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/export_tb4_cpp_prac7Export.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/export_tb4_cpp_prac7Export-noconfig.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/tb4_cpp_prac7Config.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/tb4_cpp_prac7Config-version.cmake
+-- Up-to-date: /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/install/tb4_cpp_prac7/share/tb4_cpp_prac7/package.xml

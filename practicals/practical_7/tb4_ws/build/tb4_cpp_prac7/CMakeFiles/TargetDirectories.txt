@@ -1,0 +1,10 @@
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/uninstall.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/tb4_cpp_prac7_uninstall.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/iar_astar_planner.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/test.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/edit_cache.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/rebuild_cache.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/list_install_components.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/install.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/install/local.dir
+/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/install/strip.dir
