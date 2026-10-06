@@ -175,8 +175,8 @@ namespace iar_astar_planner
         */
         push_cur(k-nx_ - 1); //top left
         push_cur(k-nx_ + 1); //top right
-        push_cur(k-nx_ - 1); // bottom left 
-        push_cur(k-nx_ + 1); // bottom right
+        push_cur(k+nx_ - 1); // bottom left 
+        push_cur(k+nx_ + 1); // bottom right
         //end 1.1
 
 
