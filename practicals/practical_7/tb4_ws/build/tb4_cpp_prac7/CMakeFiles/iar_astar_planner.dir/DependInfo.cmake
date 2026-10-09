@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp" "CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o" "gcc" "CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o.d"
-  "/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp" "CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o" "gcc" "CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o.d"
+  "/cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp" "CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o" "gcc" "CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o.d"
+  "/cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp" "CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o" "gcc" "CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o.d"
   )
 
 # Targets to which this target links.

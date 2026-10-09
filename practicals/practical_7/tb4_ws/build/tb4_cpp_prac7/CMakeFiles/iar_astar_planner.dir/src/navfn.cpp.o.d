@@ -1,7 +1,7 @@
 CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: \
- /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp \
+ /cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp \
  /usr/include/stdc-predef.h \
- /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/include/iar_astar_planner/navfn.hpp \
+ /cdojo/ICTE4001/practicals/practical_7/tb4_ws/include/iar_astar_planner/navfn.hpp \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

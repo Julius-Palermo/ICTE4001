@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/practicals/practical_7/tb4_ws
+CMAKE_SOURCE_DIR = /cdojo/ICTE4001/practicals/practical_7/tb4_ws
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7
+CMAKE_BINARY_DIR = /cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7
 
 # Include any dependencies generated for this target.
 include CMakeFiles/iar_astar_planner.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/iar_astar_planner.dir/flags.make
 CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o: CMakeFiles/iar_astar_planner.dir/flags.make
 CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o: ../../src/iar_astar_planner.cpp
 CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o: CMakeFiles/iar_astar_planner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o -MF CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o.d -o CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o -c /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o -MF CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o.d -o CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o -c /cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp
 
 CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp > CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp > CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.i
 
 CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp -o CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/iar_astar_planner.cpp -o CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.s
 
 CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: CMakeFiles/iar_astar_planner.dir/flags.make
 CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: ../../src/navfn.cpp
 CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: CMakeFiles/iar_astar_planner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o -MF CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o.d -o CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o -c /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o -MF CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o.d -o CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o -c /cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp
 
 CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp > CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp > CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.i
 
 CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp -o CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cdojo/ICTE4001/practicals/practical_7/tb4_ws/src/navfn.cpp -o CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.s
 
 # Object files for target iar_astar_planner
 iar_astar_planner_OBJECTS = \
@@ -512,7 +512,7 @@ libiar_astar_planner.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 libiar_astar_planner.so: /opt/ros/humble/lib/libtf2_ros.so
 libiar_astar_planner.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libiar_astar_planner.so: CMakeFiles/iar_astar_planner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libiar_astar_planner.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libiar_astar_planner.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/iar_astar_planner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -524,6 +524,6 @@ CMakeFiles/iar_astar_planner.dir/clean:
 .PHONY : CMakeFiles/iar_astar_planner.dir/clean
 
 CMakeFiles/iar_astar_planner.dir/depend:
-	cd /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/practicals/practical_7/tb4_ws /home/robotai/ICTE4001/practicals/practical_7/tb4_ws /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7 /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7 /home/robotai/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/iar_astar_planner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cdojo/ICTE4001/practicals/practical_7/tb4_ws /cdojo/ICTE4001/practicals/practical_7/tb4_ws /cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7 /cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7 /cdojo/ICTE4001/practicals/practical_7/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/iar_astar_planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/iar_astar_planner.dir/depend
 

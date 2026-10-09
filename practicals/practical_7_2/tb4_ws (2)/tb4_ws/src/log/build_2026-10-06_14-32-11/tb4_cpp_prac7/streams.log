@@ -1,0 +1,98 @@
+[0.004s] Invoking command in '/home/robotai/tb4_ws/src/build/tb4_cpp_prac7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robotai/tb4_ws/src/tb4_cpp_prac7 -DCMAKE_INSTALL_PREFIX=/home/robotai/tb4_ws/src/install/tb4_cpp_prac7
+[0.033s] -- The C compiler identification is GNU 11.4.0
+[0.059s] -- The CXX compiler identification is GNU 11.4.0
+[0.063s] -- Detecting C compiler ABI info
+[0.096s] -- Detecting C compiler ABI info - done
+[0.099s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.099s] -- Detecting C compile features
+[0.099s] -- Detecting C compile features - done
+[0.101s] -- Detecting CXX compiler ABI info
+[0.140s] -- Detecting CXX compiler ABI info - done
+[0.143s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.143s] -- Detecting CXX compile features
+[0.143s] -- Detecting CXX compile features - done
+[0.145s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.209s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.245s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.248s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.264s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.266s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.269s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.275s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.282s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.309s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.310s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.354s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.365s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.385s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.388s] -- Looking for pthread.h
+[0.424s] -- Looking for pthread.h - found
+[0.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.461s] -- Found Threads: TRUE  
+[0.526s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.566s] -- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.584s] -- Found nav2_common: 1.1.15 (/opt/ros/humble/share/nav2_common/cmake)
+[0.584s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.692s] -- Found nav2_util: 1.1.15 (/opt/ros/humble/share/nav2_util/cmake)
+[0.918s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.919s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.919s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.994s] -- Found nav2_core: 1.1.15 (/opt/ros/humble/share/nav2_core/cmake)
+[2.500s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.535s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.535s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robotai/tb4_ws/src/tb4_cpp_prac7/include>
+[2.535s] -- Configured cppcheck exclude dirs and/or files: 
+[2.535s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.535s] -- Added test 'lint_cmake' to check CMake code style
+[2.536s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.536s] -- Added test 'uncrustify' to check C / C++ code style
+[2.536s] -- Configured uncrustify additional arguments: 
+[2.536s] -- Added test 'xmllint' to check XML markup files
+[2.537s] -- Configuring done
+[2.556s] -- Generating done
+[2.557s] -- Build files have been written to: /home/robotai/tb4_ws/src/build/tb4_cpp_prac7
+[2.564s] Invoked command in '/home/robotai/tb4_ws/src/build/tb4_cpp_prac7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robotai/tb4_ws/src/tb4_cpp_prac7 -DCMAKE_INSTALL_PREFIX=/home/robotai/tb4_ws/src/install/tb4_cpp_prac7
+[2.565s] Invoking command in '/home/robotai/tb4_ws/src/build/tb4_cpp_prac7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/src/build/tb4_cpp_prac7 -- -j24 -l24
+[2.590s] [ 66%] [32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o[0m
+[2.591s] [ 66%] [32mBuilding CXX object CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o[0m
+[4.532s] [100%] [32m[1mLinking CXX shared library libiar_astar_planner.so[0m
+[4.658s] [100%] Built target iar_astar_planner
+[4.664s] Invoked command in '/home/robotai/tb4_ws/src/build/tb4_cpp_prac7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robotai/tb4_ws/src/build/tb4_cpp_prac7 -- -j24 -l24
+[4.683s] Invoking command in '/home/robotai/tb4_ws/src/build/tb4_cpp_prac7': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/tb4_ws/src/build/tb4_cpp_prac7
+[4.686s] -- Install configuration: ""
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/iar_astar_planner.xml
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/include
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/include/iar_astar_planner
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/include/iar_astar_planner/navfn.hpp
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/include/iar_astar_planner/iar_astar_planner.hpp
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/lib/libiar_astar_planner.so
+[4.687s] -- Set runtime path of "/home/robotai/tb4_ws/src/install/tb4_cpp_prac7/lib/libiar_astar_planner.so" to ""
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7//launch
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7//launch/navigation_launch.py
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7//config
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7//config/nav2_params.yaml
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/library_path.sh
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/library_path.dsv
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/ament_index/resource_index/package_run_dependencies/tb4_cpp_prac7
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/ament_index/resource_index/parent_prefix_path/tb4_cpp_prac7
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/ament_prefix_path.sh
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/ament_prefix_path.dsv
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/path.sh
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/environment/path.dsv
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.bash
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.sh
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.zsh
+[4.687s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/local_setup.dsv
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/package.dsv
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/ament_index/resource_index/packages/tb4_cpp_prac7
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/ament_index/resource_index/nav2_core__pluginlib__plugin/tb4_cpp_prac7
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/export_tb4_cpp_prac7Export.cmake
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/export_tb4_cpp_prac7Export-noconfig.cmake
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_libraries-extras.cmake
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/ament_cmake_export_targets-extras.cmake
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/tb4_cpp_prac7Config.cmake
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/cmake/tb4_cpp_prac7Config-version.cmake
+[4.688s] -- Installing: /home/robotai/tb4_ws/src/install/tb4_cpp_prac7/share/tb4_cpp_prac7/package.xml
+[4.689s] Invoked command in '/home/robotai/tb4_ws/src/build/tb4_cpp_prac7' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robotai/tb4_ws/src/build/tb4_cpp_prac7

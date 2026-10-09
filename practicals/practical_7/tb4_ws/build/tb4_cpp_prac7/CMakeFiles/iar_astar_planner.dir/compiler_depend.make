@@ -828,6 +828,12 @@ CMakeFiles/iar_astar_planner.dir/src/iar_astar_planner.cpp.o: ../../src/iar_asta
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/wrench.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp \
@@ -1700,6 +1706,10 @@ CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: ../../src/navfn.cpp \
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__struct.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon_stamped.hpp:
@@ -1893,6 +1903,8 @@ CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: ../../src/navfn.cpp \
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/velocity_stamped.hpp:
 
 /usr/include/limits.h:
 
@@ -2680,6 +2692,8 @@ CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: ../../src/navfn.cpp \
 
 /usr/include/c++/11/ctime:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__builder.hpp:
@@ -2813,6 +2827,8 @@ CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: ../../src/navfn.cpp \
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
 /usr/include/c++/11/ext/concurrence.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__builder.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
@@ -2997,6 +3013,8 @@ CMakeFiles/iar_astar_planner.dir/src/navfn.cpp.o: ../../src/navfn.cpp \
 /opt/ros/humble/include/rcl/rcl/macros.h:
 
 /opt/ros/humble/include/rmw/rmw/types.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/velocity_stamped__struct.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__builder.hpp:
 

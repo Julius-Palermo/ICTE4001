@@ -1,0 +1,461 @@
+#include "iar_astar_planner/navfn.hpp"
+#include "rclcpp/rclcpp.hpp"
+#include <cmath>
+#include <algorithm>
+
+namespace iar_astar_planner
+{
+    NavFn::NavFn(int nx, int ny)
+    {
+          // create cell arrays
+        RCLCPP_DEBUG(rclcpp::get_logger("rclcpp"), "[NavFn] Constructor");
+        costarr_ = NULL;
+        potarr_ = NULL;
+        pending_ = NULL;
+        setNavArr(nx, ny);
+
+        curPotentArr_ = new int[BUFFERSIZE];
+        nextPotentArr_ = new int[BUFFERSIZE];
+        overflowPotentArr_ = new int[BUFFERSIZE];
+
+        potentThreshInc_ = 2 * COST_NEUTRAL;
+
+
+        npathbuf_ = npath_ = 0;
+        pathx_ = pathy_ = NULL;
+        
+    }
+    NavFn::~NavFn()
+    {
+        if (costarr_) {
+            delete[] costarr_;
+        }
+        if (potarr_) {
+            delete[] potarr_;
+        }
+        if (curPotentArr_){
+            delete[] curPotentArr_;
+        }
+        if(nextPotentArr_){
+            delete[] nextPotentArr_;
+        }
+        if(overflowPotentArr_){
+            delete[] overflowPotentArr_;
+        }
+        if (pending_) {
+            delete[] pending_;
+        }
+
+        if (pathx_) {
+            delete[] pathx_;
+        }
+        if (pathy_) {
+            delete[] pathy_;
+        }
+    }
+
+    void NavFn::setNavArr(int nx, int ny)
+    {
+        nx_ = nx;
+        ny_ = ny;
+        ns_ = nx * ny;
+
+        
+
+        if (costarr_) {
+            delete[] costarr_;
+        }
+        if (potarr_) {
+            delete[] potarr_;
+        }
+        if (pending_) {
+            delete[] pending_;
+        }
+
+        costarr_ = new COSTTYPE[ns_];  // cost array, 2d config space
+        memset(costarr_, 0, ns_ * sizeof(COSTTYPE));
+        potarr_ = new float[ns_];  // navigation potential array
+        pending_ = new bool[ns_];
+        memset(pending_, 0, ns_ * sizeof(bool));
+    }
+
+
+    void NavFn::setStart(int * start)
+    {
+        start_[0] = start[0];
+        start_[1] = start[1];
+    }
+    void NavFn::setGoal(int * goal)
+    {
+        goal_[0] = goal[0];
+        goal_[1] = goal[1];   
+    }
+
+
+    void
+    NavFn::setCostmap(const COSTTYPE * cmap, bool allow_unknown)
+    {
+        COSTTYPE * cm = costarr_;
+        for (int i = 0; i < ny_; i++) {
+            int k = i * nx_;
+            for (int j = 0; j < nx_; j++, k++, cmap++, cm++) {
+                // This transforms the incoming cost values from NAV2::COSTMAP::2D
+                // where in ROS  
+                //      NO_INFORMATION = 255;
+                //      LETHAL_OBSTACLE = 254;
+                //      INSCRIBED_INFLATED_OBSTACLE = 253;
+                //      MAX_NON_OBSTACLE = 252;
+                //      FREE_SPACE = 0;
+
+                // COST_UNKNOWN_ROS (255)               -> COST_ObS - 1 (253)
+                // LETHAL_OBSTACLE (254)                -> COST_OBS (254)
+                // INSCRIBED_INFLATED_OBSTACLE (253)    -> COST_OBS (254)
+                // values(0 to 252) -> values from COST_NEUTRAL (50) to COST_OBS_ROS (253).
+                *cm = COST_OBS;
+                int v = *cmap;
+                if (v < COST_OBS_ROS) {
+                    v = COST_NEUTRAL + COST_FACTOR * v;
+                    if (v >= COST_OBS) {
+                        v = COST_OBS - 1;
+                    }
+                    *cm = v;
+                } else if (v == COST_UNKNOWN_ROS && allow_unknown) {
+                    v = COST_OBS - 1;
+                    *cm = v;
+                }
+            }
+        }
+    }
+
+    bool NavFn::setNavFn()
+    {
+        // reset values in propagation arrays
+        for (int i = 0; i < ns_; i++) {
+            potarr_[i] = POT_HIGHEST;
+        }
+
+        // outer bounds of cost array
+        COSTTYPE * pc;
+        pc = costarr_;
+        for (int i = 0; i < nx_; i++) {
+            *pc++ = COST_OBS;
+        }
+        pc = costarr_ + (ny_ - 1) * nx_;
+        for (int i = 0; i < nx_; i++) {
+            *pc++ = COST_OBS;
+        }
+        pc = costarr_;
+        for (int i = 0; i < ny_; i++, pc += nx_) {
+            *pc = COST_OBS;
+        }
+        pc = costarr_ + nx_ - 1;
+        for (int i = 0; i < ny_; i++, pc += nx_) {
+            *pc = COST_OBS;
+        }
+
+        // priority buffers
+        potentThresh_ = COST_OBS;
+        n_curPotentArr_ = 0;
+        n_nextPotentArr_ = 0;
+        n_overflowPotentArr_ = 0;
+        memset(pending_, 0, ns_ * sizeof(bool));
+
+
+        // set start
+        int k = start_[0] + start_[1] * nx_;
+        potarr_[k] = 0;
+        push_cur(k + 1); // right
+        push_cur(k - 1); // left
+        push_cur(k - nx_); // top
+        push_cur(k + nx_); // bottom
+
+        /* MILESTONE # 1.1
+            Push the four diagonal neighbours of the start cell too, so the wavefront
+            starts expanding from all 8 neighbours (true A* wavefront) rather than
+            just the 4-connected ones above.
+        */
+        push_cur(k - nx_ - 1); // top left
+        push_cur(k - nx_ + 1); // top right
+        push_cur(k + nx_ - 1); // bottom left
+        push_cur(k + nx_ + 1); // bottom right
+
+        if (n_curPotentArr_ <= 0)
+        {
+            RCLCPP_WARN(
+                rclcpp::get_logger("rclcpp"),
+                "[NavFn] Planning Failed, as Starting cell sorrunded by Obstacles"
+            );
+            return false;
+        }
+            
+
+        // find # of obstacle cells
+        pc = costarr_;
+        int ntot = 0;
+        for (int i = 0; i < ns_; i++, pc++) {
+            if (*pc >= COST_OBS) {
+            ntot++;  // number of cells that are obstacles
+            }
+        }
+        nobs_ = ntot;
+        return true;
+    }
+
+    bool NavFn::propAstar(int cycles)
+    {
+        int max_blk_size = 0;  // max priority block size
+        int n_cells = 0;  // number of cells put into priority blocks
+        int cycle = 0;  // which cycle we're on
+
+
+        /* MILESTONE # 2.1
+            Heuristic (straight-line) distance from start cell to goal cell, scaled
+            by COST_NEUTRAL (the per-cell traversal penalty), added to the threshold
+            increment so the wavefront is biased towards the goal (the "A*" part).
+        */
+        int dx_sg = goal_[0] - start_[0];
+        int dy_sg = goal_[1] - start_[1];
+        float dist_start_goal = std::sqrt(static_cast<float>(dx_sg * dx_sg + dy_sg * dy_sg)) *
+            COST_NEUTRAL;
+        potentThreshInc_ += dist_start_goal;
+
+        bool propSuccess = false;
+        for(; cycle < cycles; cycle++)
+        {
+            /* MILESTONE # 2.2
+                No valid cells left in either priority buffer means there is nothing
+                left to propagate, so stop.
+            */
+            if (n_curPotentArr_ == 0 && n_nextPotentArr_ == 0) {
+                break;
+            }
+
+            /* MILESTONE # 2.3
+                Clear the pending flag for the cells about to be processed. pb/i are
+                declared here and reused immediately below by the provided
+                cell-processing loop.
+            */
+            int * pb = curPotentArr_;
+            int i = n_curPotentArr_;
+            while (i-- > 0) {
+                pending_[*pb++] = false;
+            }
+
+            pb = curPotentArr_;
+            i = n_curPotentArr_;
+            while(i-- >0)
+            {
+                updateCell(*pb++);
+            }
+
+            //stats
+            n_cells += n_curPotentArr_;
+            if (n_curPotentArr_>max_blk_size)
+                max_blk_size = n_curPotentArr_;
+
+            n_curPotentArr_ = n_nextPotentArr_;
+            n_nextPotentArr_ = 0;
+            pb =  curPotentArr_;
+            curPotentArr_ = nextPotentArr_;
+            nextPotentArr_ = pb;
+
+            /* MILESTONE # 2.4
+                If curPotentArr_ ended up empty after the swap above, the current
+                priority level is exhausted: fall back to the overflow buffer and
+                raise the threshold so those lower-priority cells become eligible.
+            */
+            if (n_curPotentArr_ == 0) {
+                n_curPotentArr_ = n_overflowPotentArr_;
+                n_overflowPotentArr_ = 0;
+                pb = curPotentArr_;
+                curPotentArr_ = overflowPotentArr_;
+                overflowPotentArr_ = pb;
+
+                potentThresh_ += potentThreshInc_;
+            }
+
+            /* MILESTONE # 2.5
+                Propagation has reached the goal once its potential is no longer at
+                the "unassigned" value; stop and report success.
+            */
+            if (potarr_[goal_[1] * nx_ + goal_[0]] < POT_HIGHEST) {
+                propSuccess = true;
+                break;
+            }
+        }
+        RCLCPP_DEBUG(
+            rclcpp::get_logger("rclcpp"),
+            "[NavFn] Used %d cycles, %d cells visited (%d%%), priority buf max %d\n",
+            cycle, n_cells, (int)((n_cells * 100.0) / (ns_ - nobs_)), max_blk_size);    
+        return propSuccess;
+    }
+
+    inline void NavFn::updateCell(int n)
+    {
+        const double SQUAREROOT2 = 1.41421356237;
+        float pot;
+
+        if (costarr_[n] < COST_OBS) // Only update and propagate the cell without obstacle
+        {
+            float l, r, t, b, tl, tr, bl, br;
+
+            /* MILESTONE # 3.1
+                Potential if arriving at cell n from each 4-connected neighbour. The
+                cost of moving onto cell n is costarr_[n], regardless of direction.
+            */
+            l = potarr_[n - 1] + costarr_[n];
+            r = potarr_[n + 1] + costarr_[n];
+            t = potarr_[n - nx_] + costarr_[n];
+            b = potarr_[n + nx_] + costarr_[n];
+
+            /* MILESTONE # 3.2
+                Potential if arriving diagonally; the traversal distance is sqrt(2)
+                grid units, so the move cost is scaled by SQUAREROOT2.
+            */
+            tl = potarr_[n - nx_ - 1] + SQUAREROOT2 * costarr_[n];
+            tr = potarr_[n - nx_ + 1] + SQUAREROOT2 * costarr_[n];
+            bl = potarr_[n + nx_ - 1] + SQUAREROOT2 * costarr_[n];
+            br = potarr_[n + nx_ + 1] + SQUAREROOT2 * costarr_[n];
+
+            /* MILESTONE # 3.3
+                The cheapest of the 8 neighbour-derived potentials is the new
+                candidate potential for cell n.
+            */
+            pot = std::min({l, r, t, b, tl, tr, bl, br});
+
+            if (pot < potarr_[n]) /* only update the newly computed pot if it is
+                less than the existing saved potential estimate */
+            {
+                /* MILESTONE # 3.4
+                    Accept the improved potential for cell n.
+                */
+                potarr_[n] = pot;
+
+                /* MILESTONE # 3.5
+                    Add the straight-line heuristic distance from cell n to the goal
+                    (same scaling as Milestone 2.1) so lower-priority, further-from-goal
+                    cells get pushed to the overflow buffer instead of nextPotentArr_.
+                */
+                int nx_coord = n % nx_;
+                int ny_coord = n / nx_;
+                int dx_ng = goal_[0] - nx_coord;
+                int dy_ng = goal_[1] - ny_coord;
+                pot += std::sqrt(static_cast<float>(dx_ng * dx_ng + dy_ng * dy_ng)) *
+                    COST_NEUTRAL;
+
+                if (pot < potentThresh_)
+                {
+                    /* MILESTONE # 3.6
+                        4-connected neighbours whose saved potential is worse than
+                        reaching them via cell n get queued as high priority.
+                    */
+                    if (potarr_[n - 1] > pot + costarr_[n - 1]) {push_next(n - 1);}
+                    if (potarr_[n + 1] > pot + costarr_[n + 1]) {push_next(n + 1);}
+                    if (potarr_[n - nx_] > pot + costarr_[n - nx_]) {push_next(n - nx_);}
+                    if (potarr_[n + nx_] > pot + costarr_[n + nx_]) {push_next(n + nx_);}
+
+                    /* MILESTONE # 3.7
+                        Same check for the 4 diagonal neighbours (sqrt(2) traversal cost).
+                    */
+                    if (potarr_[n - nx_ - 1] > pot + SQUAREROOT2 * costarr_[n - nx_ - 1]) {
+                        push_next(n - nx_ - 1);
+                    }
+                    if (potarr_[n - nx_ + 1] > pot + SQUAREROOT2 * costarr_[n - nx_ + 1]) {
+                        push_next(n - nx_ + 1);
+                    }
+                    if (potarr_[n + nx_ - 1] > pot + SQUAREROOT2 * costarr_[n + nx_ - 1]) {
+                        push_next(n + nx_ - 1);
+                    }
+                    if (potarr_[n + nx_ + 1] > pot + SQUAREROOT2 * costarr_[n + nx_ + 1]) {
+                        push_next(n + nx_ + 1);
+                    }
+
+                } else {
+                    /* MILESTONE # 3.8
+                        Same 4-connected check as 3.6, but for cells whose potential
+                        exceeds the current threshold, so they queue as low priority.
+                    */
+                    if (potarr_[n - 1] > pot + costarr_[n - 1]) {push_over(n - 1);}
+                    if (potarr_[n + 1] > pot + costarr_[n + 1]) {push_over(n + 1);}
+                    if (potarr_[n - nx_] > pot + costarr_[n - nx_]) {push_over(n - nx_);}
+                    if (potarr_[n + nx_] > pot + costarr_[n + nx_]) {push_over(n + nx_);}
+
+                    /* MILESTONE # 3.9
+                        Same diagonal check as 3.7, queued as low priority.
+                    */
+                    if (potarr_[n - nx_ - 1] > pot + SQUAREROOT2 * costarr_[n - nx_ - 1]) {
+                        push_over(n - nx_ - 1);
+                    }
+                    if (potarr_[n - nx_ + 1] > pot + SQUAREROOT2 * costarr_[n - nx_ + 1]) {
+                        push_over(n - nx_ + 1);
+                    }
+                    if (potarr_[n + nx_ - 1] > pot + SQUAREROOT2 * costarr_[n + nx_ - 1]) {
+                        push_over(n + nx_ - 1);
+                    }
+                    if (potarr_[n + nx_ + 1] > pot + SQUAREROOT2 * costarr_[n + nx_ + 1]) {
+                        push_over(n + nx_ + 1);
+                    }
+                }
+            }
+        }
+
+    }
+
+    int NavFn::calcPath(int n)
+    {
+        if (npathbuf_ < n) {
+            if (pathx_) {delete[] pathx_;}
+            if (pathy_) {delete[] pathy_;}
+            pathx_ = new float[n];
+            pathy_ = new float[n];
+            npathbuf_ = n;
+        }
+        int * st;
+        st = goal_;
+        int stc = st[1] * nx_ + st[0];
+        npath_ = 0;
+
+        for(int i = 0; i < n; i++)
+        {
+            pathx_[npath_] = stc % nx_;
+            pathy_[npath_] = stc / nx_;
+            npath_++;
+            
+            if (potarr_[stc] < COST_NEUTRAL) {
+                return npath_;  // done!
+            }
+
+            int stcnx = stc + nx_;
+            int stcpx = stc - nx_;
+
+            int minc = stc;
+            int curp = potarr_[stc];
+            int minp = curp;
+
+            /* MILESTONE # 4.1
+                Greedy descent: check all 8 neighbours of the current cell and move
+                to whichever has the lowest potential.
+            */
+            if (potarr_[stc - 1] < minp) {minc = stc - 1; minp = potarr_[stc - 1];}
+            if (potarr_[stc + 1] < minp) {minc = stc + 1; minp = potarr_[stc + 1];}
+            if (potarr_[stcpx] < minp) {minc = stcpx; minp = potarr_[stcpx];}
+            if (potarr_[stcnx] < minp) {minc = stcnx; minp = potarr_[stcnx];}
+            if (potarr_[stcpx - 1] < minp) {minc = stcpx - 1; minp = potarr_[stcpx - 1];}
+            if (potarr_[stcpx + 1] < minp) {minc = stcpx + 1; minp = potarr_[stcpx + 1];}
+            if (potarr_[stcnx - 1] < minp) {minc = stcnx - 1; minp = potarr_[stcnx - 1];}
+            if (potarr_[stcnx + 1] < minp) {minc = stcnx + 1; minp = potarr_[stcnx + 1];}
+
+            stc = minc;
+
+            if(minp >= curp)
+            {
+                RCLCPP_DEBUG(rclcpp::get_logger("rclcpp"), "[PathCalc] Zero gradient");
+                return 0;
+            }
+        }
+
+        RCLCPP_DEBUG(rclcpp::get_logger("rclcpp"), "[PathCalc] No path found, path too long");
+        return 0;
+    }
+    
+}

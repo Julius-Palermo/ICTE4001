@@ -1,0 +1,10 @@
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/uninstall.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/tb4_cpp_prac7_uninstall.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/iar_astar_planner.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/test.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/edit_cache.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/rebuild_cache.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/list_install_components.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/install.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/install/local.dir
+/cdojo/tb4_ws (2)/tb4_ws/build/tb4_cpp_prac7/CMakeFiles/install/strip.dir
