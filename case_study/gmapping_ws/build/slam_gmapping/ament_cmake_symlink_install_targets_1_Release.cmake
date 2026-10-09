@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/libslam_gmapping.so" "TARGETS" "slam_gmapping" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

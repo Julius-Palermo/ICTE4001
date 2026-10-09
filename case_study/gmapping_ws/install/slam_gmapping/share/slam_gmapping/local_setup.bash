@@ -1,0 +1,1 @@
+/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/ament_cmake_environment_hooks/local_setup.bash

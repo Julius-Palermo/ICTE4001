@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000397] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.000432] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping')])}
+[0.000457] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.005085] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.005403] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping'], 'cwd': '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('POWERSHELL_TELEMETRY_OPTOUT', 'false'), ('LANGUAGE', 'en_AU:en'), ('USER', 'coder-dojo'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/cdojo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[38:2::0:153:153m\\](local) \\u@\\h \\[\\033[38:2::204:153:255m\\][\\w]\\$\\[\\033[00m\\]'), ('POWERSHELL_DISTRIBUTION_CHANNEL', 'Azure-GCArcService'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1460604'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'coder-dojo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/cdojo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/cdojo/.dotnet/tools'), ('SESSION_MANAGER', 'local/lab232-b02:@/tmp/.ICE-unix/1460604,unix/lab232-b02:/tmp/.ICE-unix/1460604'), ('GDM_LANG', 'en_AU'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de03ac1d_f51c_443a_beb6_3b433e60b389'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/cdojo/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/cdojo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/coder-dojo'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('IMDS_ENDPOINT', 'http://localhost:40342'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping'), ('IDENTITY_ENDPOINT', 'http://localhost:40342/metadata/identity/oauth2/token'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.043499] (openslam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.076128] (openslam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.080669] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099954] (-) TimerEvent: {}
+[0.132710] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.136949] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.137117] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.137315] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.139253] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.194400] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.198910] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.199041] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.199293] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.200016] (-) TimerEvent: {}
+[0.200518] (openslam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300199] (-) TimerEvent: {}
+[0.330752] (openslam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.366234] (openslam_gmapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.400299] (-) TimerEvent: {}
+[0.439188] (openslam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.448485] (openslam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[0.449327] (openslam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping\n'}
+[0.452623] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[0.452954] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'build'}
+[0.453631] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping', '--', '-j24', '-l24'], 'cwd': '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('POWERSHELL_TELEMETRY_OPTOUT', 'false'), ('LANGUAGE', 'en_AU:en'), ('USER', 'coder-dojo'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/cdojo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[38:2::0:153:153m\\](local) \\u@\\h \\[\\033[38:2::204:153:255m\\][\\w]\\$\\[\\033[00m\\]'), ('POWERSHELL_DISTRIBUTION_CHANNEL', 'Azure-GCArcService'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1460604'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'coder-dojo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/cdojo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/cdojo/.dotnet/tools'), ('SESSION_MANAGER', 'local/lab232-b02:@/tmp/.ICE-unix/1460604,unix/lab232-b02:/tmp/.ICE-unix/1460604'), ('GDM_LANG', 'en_AU'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de03ac1d_f51c_443a_beb6_3b433e60b389'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/cdojo/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/cdojo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/coder-dojo'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('IMDS_ENDPOINT', 'http://localhost:40342'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping'), ('IDENTITY_ENDPOINT', 'http://localhost:40342/metadata/identity/oauth2/token'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.488057] (openslam_gmapping) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/movement.cpp.o\x1b[0m\n'}
+[0.488263] (openslam_gmapping) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object utils/CMakeFiles/utils.dir/stat.cpp.o\x1b[0m\n'}
+[0.488392] (openslam_gmapping) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensor.cpp.o\x1b[0m\n'}
+[0.493426] (openslam_gmapping) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object sensor/sensor_base/CMakeFiles/sensor_base.dir/sensorreading.cpp.o\x1b[0m\n'}
+[0.500391] (-) TimerEvent: {}
+[0.600762] (-) TimerEvent: {}
+[0.625334] (openslam_gmapping) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library libsensor_base.a\x1b[0m\n'}
+[0.668470] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX static library libutils.a\x1b[0m\n'}
+[0.700885] (-) TimerEvent: {}
+[0.801255] (-) TimerEvent: {}
+[0.833041] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] Built target sensor_base\n'}
+[0.834868] (openslam_gmapping) StdoutLine: {'line': b'[ 27%] Built target utils\n'}
+[0.846445] (openslam_gmapping) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o\x1b[0m\n'}
+[0.846894] (openslam_gmapping) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o\x1b[0m\n'}
+[0.847780] (openslam_gmapping) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o\x1b[0m\n'}
+[0.848678] (openslam_gmapping) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o\x1b[0m\n'}
+[0.901362] (-) TimerEvent: {}
+[1.001163] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libsensor_odometry.a\x1b[0m\n'}
+[1.001419] (-) TimerEvent: {}
+[1.045091] (openslam_gmapping) StdoutLine: {'line': b'[ 50%] Built target sensor_odometry\n'}
+[1.072994] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX static library libsensor_range.a\x1b[0m\n'}
+[1.101519] (-) TimerEvent: {}
+[1.123440] (openslam_gmapping) StdoutLine: {'line': b'[ 54%] Built target sensor_range\n'}
+[1.153811] (openslam_gmapping) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcher.cpp.o\x1b[0m\n'}
+[1.153926] (openslam_gmapping) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/scanmatcherprocessor.cpp.o\x1b[0m\n'}
+[1.154184] (openslam_gmapping) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/smmap.cpp.o\x1b[0m\n'}
+[1.154502] (openslam_gmapping) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object scanmatcher/CMakeFiles/scanmatcher.dir/eig3.cpp.o\x1b[0m\n'}
+[1.201629] (-) TimerEvent: {}
+[1.301882] (-) TimerEvent: {}
+[1.402172] (-) TimerEvent: {}
+[1.502459] (-) TimerEvent: {}
+[1.602749] (-) TimerEvent: {}
+[1.703023] (-) TimerEvent: {}
+[1.738989] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX static library libscanmatcher.a\x1b[0m\n'}
+[1.789707] (openslam_gmapping) StdoutLine: {'line': b'[ 77%] Built target scanmatcher\n'}
+[1.803121] (-) TimerEvent: {}
+[1.812690] (openslam_gmapping) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/motionmodel.cpp.o\x1b[0m\n'}
+[1.812876] (openslam_gmapping) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor.cpp.o\x1b[0m\n'}
+[1.817906] (openslam_gmapping) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gfsreader.cpp.o\x1b[0m\n'}
+[1.818968] (openslam_gmapping) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object gridfastslam/CMakeFiles/gridfastslam.dir/gridslamprocessor_tree.cpp.o\x1b[0m\n'}
+[1.903252] (-) TimerEvent: {}
+[2.003475] (-) TimerEvent: {}
+[2.103690] (-) TimerEvent: {}
+[2.203890] (-) TimerEvent: {}
+[2.304068] (-) TimerEvent: {}
+[2.404350] (-) TimerEvent: {}
+[2.504589] (-) TimerEvent: {}
+[2.515311] (openslam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libgridfastslam.a\x1b[0m\n'}
+[2.561186] (openslam_gmapping) StdoutLine: {'line': b'[100%] Built target gridfastslam\n'}
+[2.570706] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[2.597932] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'install'}
+[2.603374] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping'], 'cwd': '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('POWERSHELL_TELEMETRY_OPTOUT', 'false'), ('LANGUAGE', 'en_AU:en'), ('USER', 'coder-dojo'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/cdojo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[38:2::0:153:153m\\](local) \\u@\\h \\[\\033[38:2::204:153:255m\\][\\w]\\$\\[\\033[00m\\]'), ('POWERSHELL_DISTRIBUTION_CHANNEL', 'Azure-GCArcService'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1460604'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'coder-dojo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/cdojo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/cdojo/.dotnet/tools'), ('SESSION_MANAGER', 'local/lab232-b02:@/tmp/.ICE-unix/1460604,unix/lab232-b02:/tmp/.ICE-unix/1460604'), ('GDM_LANG', 'en_AU'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de03ac1d_f51c_443a_beb6_3b433e60b389'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/cdojo/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/cdojo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/coder-dojo'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('IMDS_ENDPOINT', 'http://localhost:40342'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping'), ('IDENTITY_ENDPOINT', 'http://localhost:40342/metadata/identity/oauth2/token'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.604681] (-) TimerEvent: {}
+[2.608915] (openslam_gmapping) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.609476] (openslam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.609782] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib/libgridfastslam.a\n'}
+[2.623527] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib/libscanmatcher.a\n'}
+[2.635947] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib/libsensor_base.a\n'}
+[2.652916] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.670810] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.688775] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.689063] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.689208] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib/libsensor_odometry.a\n'}
+[2.704803] (-) TimerEvent: {}
+[2.709565] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib/libsensor_range.a\n'}
+[2.730346] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib/libutils.a\n'}
+[2.748600] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.748859] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.749344] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.sh\n'}
+[2.749478] (openslam_gmapping) StdoutLine: {'line': b'-- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/library_path.dsv\n'}
+[2.750117] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/grid/accessstate.h\n'}
+[2.768045] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/grid/array2d.h\n'}
+[2.787604] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/grid/harray2d.h\n'}
+[2.804363] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/grid/map.h\n'}
+[2.804856] (-) TimerEvent: {}
+[2.823234] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.h\n'}
+[2.843345] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/gridfastslam/gridslamprocessor.hxx\n'}
+[2.854421] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/gridfastslam/motionmodel.h\n'}
+[2.871427] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/log/configuration.h\n'}
+[2.887544] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/log/sensorlog.h\n'}
+[2.896479] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/particlefilter/particlefilter.h\n'}
+[2.904960] (-) TimerEvent: {}
+[2.906450] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/scanmatcher/icp.h\n'}
+[2.912852] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/scanmatcher/scanmatcher.h\n'}
+[2.923905] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/scanmatcher/smmap.h\n'}
+[2.937567] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensor.h\n'}
+[2.953789] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_base/sensorreading.h\n'}
+[2.972158] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometryreading.h\n'}
+[2.982445] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_odometry/odometrysensor.h\n'}
+[2.994686] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangereading.h\n'}
+[3.005055] (-) TimerEvent: {}
+[3.007081] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/sensor/sensor_range/rangesensor.h\n'}
+[3.018453] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/utils/autoptr.h\n'}
+[3.031166] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/utils/commandline.h\n'}
+[3.040910] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/utils/gvalues.h\n'}
+[3.055906] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/utils/macro_params.h\n'}
+[3.067294] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/utils/point.h\n'}
+[3.084456] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include//gmapping/utils/stat.h\n'}
+[3.102367] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/ament_index/resource_index/package_run_dependencies/openslam_gmapping\n'}
+[3.105140] (-) TimerEvent: {}
+[3.120989] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/ament_index/resource_index/parent_prefix_path/openslam_gmapping\n'}
+[3.138789] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.sh\n'}
+[3.151377] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/ament_prefix_path.dsv\n'}
+[3.157151] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.sh\n'}
+[3.166636] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/environment/path.dsv\n'}
+[3.178872] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.bash\n'}
+[3.190467] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.sh\n'}
+[3.204192] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.zsh\n'}
+[3.205233] (-) TimerEvent: {}
+[3.218620] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/local_setup.dsv\n'}
+[3.231292] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/package.dsv\n'}
+[3.244215] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/ament_index/resource_index/packages/openslam_gmapping\n'}
+[3.264081] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.279890] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.289956] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig.cmake\n'}
+[3.305338] (-) TimerEvent: {}
+[3.306609] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/cmake/openslam_gmappingConfig-version.cmake\n'}
+[3.323698] (openslam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/package.xml\n'}
+[3.338142] (openslam_gmapping) CommandEnded: {'returncode': 0}
+[3.385836] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 0}
+[3.386920] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[3.398639] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[3.398981] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping'], 'cwd': '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('POWERSHELL_TELEMETRY_OPTOUT', 'false'), ('LANGUAGE', 'en_AU:en'), ('USER', 'coder-dojo'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/cdojo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[38:2::0:153:153m\\](local) \\u@\\h \\[\\033[38:2::204:153:255m\\][\\w]\\$\\[\\033[00m\\]'), ('POWERSHELL_DISTRIBUTION_CHANNEL', 'Azure-GCArcService'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1460604'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'coder-dojo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/cdojo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/cdojo/.dotnet/tools'), ('SESSION_MANAGER', 'local/lab232-b02:@/tmp/.ICE-unix/1460604,unix/lab232-b02:/tmp/.ICE-unix/1460604'), ('GDM_LANG', 'en_AU'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de03ac1d_f51c_443a_beb6_3b433e60b389'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/cdojo/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/cdojo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/coder-dojo'), ('AMENT_PREFIX_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('IMDS_ENDPOINT', 'http://localhost:40342'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping'), ('IDENTITY_ENDPOINT', 'http://localhost:40342/metadata/identity/oauth2/token'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[3.405401] (-) TimerEvent: {}
+[3.449058] (slam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.487949] (slam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.492122] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.505492] (-) TimerEvent: {}
+[3.539883] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.545117] (slam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.545243] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.545486] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.547327] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.600749] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.605263] (slam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.605398] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.605540] (-) TimerEvent: {}
+[3.605650] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.606977] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.705611] (-) TimerEvent: {}
+[3.709979] (slam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.748250] (slam_gmapping) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.763819] (slam_gmapping) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.787526] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.790096] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.794363] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.800372] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.805801] (-) TimerEvent: {}
+[3.808486] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.821198] (slam_gmapping) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.836098] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.841257] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[3.870871] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.872143] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.905904] (-) TimerEvent: {}
+[3.931136] (slam_gmapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.958515] (slam_gmapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.998037] (slam_gmapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.004136] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.006001] (-) TimerEvent: {}
+[4.073872] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.074013] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.106118] (-) TimerEvent: {}
+[4.122420] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.123420] (slam_gmapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.178481] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.185083] (slam_gmapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.185777] (slam_gmapping) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[4.185806] (slam_gmapping) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.187410] (slam_gmapping) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.196284] (slam_gmapping) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[4.205411] (slam_gmapping) StdoutLine: {'line': b'-- Found openslam_gmapping: 0.1.2 (/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)\n'}
+[4.206203] (-) TimerEvent: {}
+[4.206679] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.251954] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.252079] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/include>\n'}
+[4.252114] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.252234] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.252512] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.252771] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.253352] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.253440] (slam_gmapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.253629] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.254425] (slam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.263711] (slam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[4.264984] (slam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping\n'}
+[4.271593] (slam_gmapping) CommandEnded: {'returncode': 0}
+[4.272084] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[4.272409] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping', '--', '-j24', '-l24'], 'cwd': '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('POWERSHELL_TELEMETRY_OPTOUT', 'false'), ('LANGUAGE', 'en_AU:en'), ('USER', 'coder-dojo'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/cdojo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[38:2::0:153:153m\\](local) \\u@\\h \\[\\033[38:2::204:153:255m\\][\\w]\\$\\[\\033[00m\\]'), ('POWERSHELL_DISTRIBUTION_CHANNEL', 'Azure-GCArcService'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1460604'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'coder-dojo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/cdojo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/cdojo/.dotnet/tools'), ('SESSION_MANAGER', 'local/lab232-b02:@/tmp/.ICE-unix/1460604,unix/lab232-b02:/tmp/.ICE-unix/1460604'), ('GDM_LANG', 'en_AU'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de03ac1d_f51c_443a_beb6_3b433e60b389'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/cdojo/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/cdojo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/coder-dojo'), ('AMENT_PREFIX_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('IMDS_ENDPOINT', 'http://localhost:40342'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping'), ('IDENTITY_ENDPOINT', 'http://localhost:40342/metadata/identity/oauth2/token'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[4.306340] (-) TimerEvent: {}
+[4.309099] (slam_gmapping) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o\x1b[0m\n'}
+[4.310043] (slam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o\x1b[0m\n'}
+[4.406407] (-) TimerEvent: {}
+[4.506709] (-) TimerEvent: {}
+[4.607110] (-) TimerEvent: {}
+[4.707493] (-) TimerEvent: {}
+[4.807881] (-) TimerEvent: {}
+[4.908263] (-) TimerEvent: {}
+[5.008738] (-) TimerEvent: {}
+[5.109045] (-) TimerEvent: {}
+[5.209360] (-) TimerEvent: {}
+[5.309665] (-) TimerEvent: {}
+[5.409992] (-) TimerEvent: {}
+[5.510294] (-) TimerEvent: {}
+[5.610006] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[5.610141] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[5.610172] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[5.610201] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.610224] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.610248] (slam_gmapping) StderrLine: {'line': b'  140 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[5.610269] (slam_gmapping) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.610289] (-) TimerEvent: {}
+[5.610352] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.610399] (slam_gmapping) StderrLine: {'line': b'  142 |                 \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[5.610421] (slam_gmapping) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.622810] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5\x1b[m\x1b[K,\n'}
+[5.622905] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15\x1b[m\x1b[K,\n'}
+[5.622936] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[5.622965] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[5.622988] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KGMapping::PointAccumulator::PointAccumulator(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.623011] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:17:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.623035] (slam_gmapping) StderrLine: {'line': b'   17 |         PointAccumulator(\x1b[01;35m\x1b[Kint i\x1b[m\x1b[K): acc(0,0), n(0), visits(0){assert(i==-1);}\n'}
+[5.623056] (slam_gmapping) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[5.710478] (-) TimerEvent: {}
+[5.810779] (-) TimerEvent: {}
+[5.911071] (-) TimerEvent: {}
+[5.976643] (slam_gmapping) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable slam_gmapping_node\x1b[0m\n'}
+[6.011249] (-) TimerEvent: {}
+[6.042435] (slam_gmapping) StdoutLine: {'line': b'[ 75%] Built target slam_gmapping_node\n'}
+[6.111419] (-) TimerEvent: {}
+[6.211724] (-) TimerEvent: {}
+[6.312027] (-) TimerEvent: {}
+[6.412344] (-) TimerEvent: {}
+[6.512649] (-) TimerEvent: {}
+[6.612951] (-) TimerEvent: {}
+[6.713254] (-) TimerEvent: {}
+[6.813579] (-) TimerEvent: {}
+[6.913888] (-) TimerEvent: {}
+[7.014189] (-) TimerEvent: {}
+[7.114508] (-) TimerEvent: {}
+[7.214812] (-) TimerEvent: {}
+[7.315117] (-) TimerEvent: {}
+[7.415536] (-) TimerEvent: {}
+[7.515831] (-) TimerEvent: {}
+[7.616116] (-) TimerEvent: {}
+[7.716404] (-) TimerEvent: {}
+[7.816692] (-) TimerEvent: {}
+[7.916981] (-) TimerEvent: {}
+[8.017272] (-) TimerEvent: {}
+[8.117583] (-) TimerEvent: {}
+[8.217881] (-) TimerEvent: {}
+[8.318173] (-) TimerEvent: {}
+[8.418481] (-) TimerEvent: {}
+[8.518775] (-) TimerEvent: {}
+[8.619069] (-) TimerEvent: {}
+[8.719373] (-) TimerEvent: {}
+[8.819670] (-) TimerEvent: {}
+[8.919951] (-) TimerEvent: {}
+[9.020225] (-) TimerEvent: {}
+[9.120519] (-) TimerEvent: {}
+[9.220786] (-) TimerEvent: {}
+[9.321050] (-) TimerEvent: {}
+[9.421356] (-) TimerEvent: {}
+[9.521643] (-) TimerEvent: {}
+[9.621918] (-) TimerEvent: {}
+[9.722181] (-) TimerEvent: {}
+[9.822449] (-) TimerEvent: {}
+[9.922716] (-) TimerEvent: {}
+[10.023013] (-) TimerEvent: {}
+[10.123287] (-) TimerEvent: {}
+[10.223582] (-) TimerEvent: {}
+[10.323859] (-) TimerEvent: {}
+[10.424135] (-) TimerEvent: {}
+[10.524433] (-) TimerEvent: {}
+[10.624632] (-) TimerEvent: {}
+[10.724907] (-) TimerEvent: {}
+[10.825181] (-) TimerEvent: {}
+[10.925457] (-) TimerEvent: {}
+[11.025745] (-) TimerEvent: {}
+[11.126022] (-) TimerEvent: {}
+[11.226299] (-) TimerEvent: {}
+[11.326618] (-) TimerEvent: {}
+[11.426894] (-) TimerEvent: {}
+[11.527171] (-) TimerEvent: {}
+[11.627455] (-) TimerEvent: {}
+[11.727745] (-) TimerEvent: {}
+[11.828033] (-) TimerEvent: {}
+[11.928323] (-) TimerEvent: {}
+[12.028622] (-) TimerEvent: {}
+[12.128852] (-) TimerEvent: {}
+[12.136049] (slam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libslam_gmapping.so\x1b[0m\n'}
+[12.228994] (-) TimerEvent: {}
+[12.250876] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[12.261757] (slam_gmapping) CommandEnded: {'returncode': 0}
+[12.288894] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[12.289518] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping'], 'cwd': '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('IGN_IP', '127.0.0.1'), ('POWERSHELL_TELEMETRY_OPTOUT', 'false'), ('LANGUAGE', 'en_AU:en'), ('USER', 'coder-dojo'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/cdojo'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[38:2::0:153:153m\\](local) \\u@\\h \\[\\033[38:2::204:153:255m\\][\\w]\\$\\[\\033[00m\\]'), ('POWERSHELL_DISTRIBUTION_CHANNEL', 'Azure-GCArcService'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1460604'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'coder-dojo'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/cdojo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/cdojo/.dotnet/tools'), ('SESSION_MANAGER', 'local/lab232-b02:@/tmp/.ICE-unix/1460604,unix/lab232-b02:/tmp/.ICE-unix/1460604'), ('GDM_LANG', 'en_AU'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session10'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/de03ac1d_f51c_443a_beb6_3b433e60b389'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DOTNET_BUNDLE_EXTRACT_BASE_DIR', '/cdojo/.cache/dotnet_bundle_extract'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/cdojo/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.240'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1001/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/coder-dojo'), ('AMENT_PREFIX_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('IMDS_ENDPOINT', 'http://localhost:40342'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1001/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping'), ('IDENTITY_ENDPOINT', 'http://localhost:40342/metadata/identity/oauth2/token'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1001/bus,guid=0956ae3b7274cc47effc32ea6ac84dc5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/opt/ros/humble')]), 'shell': False}
+[12.298787] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.299383] (slam_gmapping) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.299730] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping_node\n'}
+[12.309551] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/lib/libslam_gmapping.so\n'}
+[12.323871] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[12.329170] (-) TimerEvent: {}
+[12.337115] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/config/slam_gmapping.yaml\n'}
+[12.351371] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[12.373272] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[12.390568] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[12.407668] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[12.426995] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[12.429320] (-) TimerEvent: {}
+[12.446906] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[12.460961] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[12.477330] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[12.489539] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[12.508757] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[12.525420] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[12.529381] (-) TimerEvent: {}
+[12.544728] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[12.564042] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/rclcpp_components/slam_gmapping\n'}
+[12.583042] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[12.595400] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[12.603561] (slam_gmapping) StdoutLine: {'line': b'-- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[12.617615] (slam_gmapping) CommandEnded: {'returncode': 0}
+[12.629547] (-) TimerEvent: {}
+[12.681644] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[12.682829] (-) EventReactorShutdown: {}

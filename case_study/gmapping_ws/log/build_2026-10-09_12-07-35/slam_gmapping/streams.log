@@ -1,0 +1,50 @@
+[0.006s] Invoking command in '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping:/opt/ros/humble PS1=\[\033[38:2::0:153:153m\](local) \u@\h \[\033[38:2::204:153:255m\][\w]\$\[\033[00m\] /usr/bin/cmake --build /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping -- -j24 -l24
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target slam_gmapping_node[0m
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target slam_gmapping[0m
+[0.046s] [ 50%] Built target slam_gmapping_node
+[0.048s] [ 75%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[1.299s] In file included from [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[1.299s]                  from [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[1.299s]                  from [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[1.299s] [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[1.299s] [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[1.299s]   140 |         [01;35m[Kif[m[K (count>0)
+[1.299s]       |         [01;35m[K^~[m[K
+[1.299s] [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[1.299s]   142 |                 [01;36m[Kout[m[K++;
+[1.299s]       |                 [01;36m[K^~~[m[K
+[1.311s] In file included from [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:5[m[K,
+[1.311s]                  from [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:15[m[K,
+[1.311s]                  from [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[1.311s]                  from [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[1.311s] [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:[m[K In constructor ‘[01m[KGMapping::PointAccumulator::PointAccumulator(int)[m[K’:
+[1.311s] [01m[K/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping/include/gmapping/scanmatcher/smmap.h:17:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.311s]    17 |         PointAccumulator([01;35m[Kint i[m[K): acc(0,0), n(0), visits(0){assert(i==-1);}
+[1.311s]       |                          [01;35m[K~~~~^[m[K
+[8.006s] [100%] [32m[1mLinking CXX shared library libslam_gmapping.so[0m
+[8.117s] [100%] Built target slam_gmapping
+[8.128s] Invoked command in '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping:/opt/ros/humble PS1=\[\033[38:2::0:153:153m\](local) \u@\h \[\033[38:2::204:153:255m\][\w]\$\[\033[00m\] /usr/bin/cmake --build /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping -- -j24 -l24
+[8.148s] Invoking command in '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping': CMAKE_PREFIX_PATH=/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping:/opt/ros/humble PS1=\[\033[38:2::0:153:153m\](local) \u@\h \[\033[38:2::204:153:255m\][\w]\$\[\033[00m\] /usr/bin/cmake --install /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping
+[8.155s] -- Install configuration: "Release"
+[8.155s] -- Execute custom install script
+[8.156s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping_node
+[8.156s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/lib/libslam_gmapping.so
+[8.156s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[8.156s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/config/slam_gmapping.yaml
+[8.156s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[8.157s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[8.157s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[8.157s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[8.157s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[8.157s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[8.157s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[8.157s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[8.158s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[8.158s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[8.158s] -- Symlinking: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[8.163s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[8.163s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/ament_index/resource_index/rclcpp_components/slam_gmapping
+[8.164s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[8.164s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[8.164s] -- Up-to-date symlink: /cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[8.166s] Invoked command in '/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping' returned '0': CMAKE_PREFIX_PATH=/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping:/cdojo/ICTE4001/case_study/gmapping_ws/install/slam_gmapping:/opt/ros/humble PS1=\[\033[38:2::0:153:153m\](local) \u@\h \[\033[38:2::204:153:255m\][\w]\$\[\033[00m\] /usr/bin/cmake --install /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping
