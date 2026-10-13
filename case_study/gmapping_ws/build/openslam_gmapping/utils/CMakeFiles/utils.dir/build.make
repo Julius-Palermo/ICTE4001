@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
+CMAKE_BINARY_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
 
 # Include any dependencies generated for this target.
 include utils/CMakeFiles/utils.dir/depend.make
@@ -70,32 +70,32 @@ include utils/CMakeFiles/utils.dir/progress.make
 include utils/CMakeFiles/utils.dir/flags.make
 
 utils/CMakeFiles/utils.dir/movement.cpp.o: utils/CMakeFiles/utils.dir/flags.make
-utils/CMakeFiles/utils.dir/movement.cpp.o: /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp
+utils/CMakeFiles/utils.dir/movement.cpp.o: /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp
 utils/CMakeFiles/utils.dir/movement.cpp.o: utils/CMakeFiles/utils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/utils.dir/movement.cpp.o"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils/CMakeFiles/utils.dir/movement.cpp.o -MF CMakeFiles/utils.dir/movement.cpp.o.d -o CMakeFiles/utils.dir/movement.cpp.o -c /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object utils/CMakeFiles/utils.dir/movement.cpp.o"
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils/CMakeFiles/utils.dir/movement.cpp.o -MF CMakeFiles/utils.dir/movement.cpp.o.d -o CMakeFiles/utils.dir/movement.cpp.o -c /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp
 
 utils/CMakeFiles/utils.dir/movement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/movement.cpp.i"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp > CMakeFiles/utils.dir/movement.cpp.i
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp > CMakeFiles/utils.dir/movement.cpp.i
 
 utils/CMakeFiles/utils.dir/movement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/movement.cpp.s"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp -o CMakeFiles/utils.dir/movement.cpp.s
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/movement.cpp -o CMakeFiles/utils.dir/movement.cpp.s
 
 utils/CMakeFiles/utils.dir/stat.cpp.o: utils/CMakeFiles/utils.dir/flags.make
-utils/CMakeFiles/utils.dir/stat.cpp.o: /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp
+utils/CMakeFiles/utils.dir/stat.cpp.o: /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp
 utils/CMakeFiles/utils.dir/stat.cpp.o: utils/CMakeFiles/utils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils/CMakeFiles/utils.dir/stat.cpp.o"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils/CMakeFiles/utils.dir/stat.cpp.o -MF CMakeFiles/utils.dir/stat.cpp.o.d -o CMakeFiles/utils.dir/stat.cpp.o -c /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object utils/CMakeFiles/utils.dir/stat.cpp.o"
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT utils/CMakeFiles/utils.dir/stat.cpp.o -MF CMakeFiles/utils.dir/stat.cpp.o.d -o CMakeFiles/utils.dir/stat.cpp.o -c /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp
 
 utils/CMakeFiles/utils.dir/stat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/utils.dir/stat.cpp.i"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp > CMakeFiles/utils.dir/stat.cpp.i
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp > CMakeFiles/utils.dir/stat.cpp.i
 
 utils/CMakeFiles/utils.dir/stat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/utils.dir/stat.cpp.s"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp -o CMakeFiles/utils.dir/stat.cpp.s
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils/stat.cpp -o CMakeFiles/utils.dir/stat.cpp.s
 
 # Object files for target utils
 utils_OBJECTS = \
@@ -109,19 +109,19 @@ utils/libutils.a: utils/CMakeFiles/utils.dir/movement.cpp.o
 utils/libutils.a: utils/CMakeFiles/utils.dir/stat.cpp.o
 utils/libutils.a: utils/CMakeFiles/utils.dir/build.make
 utils/libutils.a: utils/CMakeFiles/utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libutils.a"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean_target.cmake
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libutils.a"
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean_target.cmake
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 utils/CMakeFiles/utils.dir/build: utils/libutils.a
 .PHONY : utils/CMakeFiles/utils.dir/build
 
 utils/CMakeFiles/utils.dir/clean:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils && $(CMAKE_COMMAND) -P CMakeFiles/utils.dir/cmake_clean.cmake
 .PHONY : utils/CMakeFiles/utils.dir/clean
 
 utils/CMakeFiles/utils.dir/depend:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/utils /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/utils/CMakeFiles/utils.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : utils/CMakeFiles/utils.dir/depend
 

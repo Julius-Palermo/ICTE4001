@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping
+CMAKE_BINARY_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

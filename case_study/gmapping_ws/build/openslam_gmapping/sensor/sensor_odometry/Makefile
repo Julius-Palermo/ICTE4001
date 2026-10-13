@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
+CMAKE_BINARY_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_progress_start /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_odometry//CMakeFiles/progress.marks
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles 0
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_progress_start /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_odometry//CMakeFiles/progress.marks
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/clean
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/preinstall
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/preinstall
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/rule:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/rule
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/rule
 .PHONY : sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ sensor_odometry: sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/rule
 
 # fast build rule for target.
 sensor_odometry/fast:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build
 .PHONY : sensor_odometry/fast
 
 odometryreading.o: odometryreading.cpp.o
@@ -190,7 +190,7 @@ odometryreading.o: odometryreading.cpp.o
 
 # target to build an object file
 odometryreading.cpp.o:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.o
 .PHONY : odometryreading.cpp.o
 
 odometryreading.i: odometryreading.cpp.i
@@ -198,7 +198,7 @@ odometryreading.i: odometryreading.cpp.i
 
 # target to preprocess a source file
 odometryreading.cpp.i:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.i
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.i
 .PHONY : odometryreading.cpp.i
 
 odometryreading.s: odometryreading.cpp.s
@@ -206,7 +206,7 @@ odometryreading.s: odometryreading.cpp.s
 
 # target to generate assembly for a file
 odometryreading.cpp.s:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.s
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometryreading.cpp.s
 .PHONY : odometryreading.cpp.s
 
 odometrysensor.o: odometrysensor.cpp.o
@@ -214,7 +214,7 @@ odometrysensor.o: odometrysensor.cpp.o
 
 # target to build an object file
 odometrysensor.cpp.o:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.o
 .PHONY : odometrysensor.cpp.o
 
 odometrysensor.i: odometrysensor.cpp.i
@@ -222,7 +222,7 @@ odometrysensor.i: odometrysensor.cpp.i
 
 # target to preprocess a source file
 odometrysensor.cpp.i:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.i
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.i
 .PHONY : odometrysensor.cpp.i
 
 odometrysensor.s: odometrysensor.cpp.s
@@ -230,7 +230,7 @@ odometrysensor.s: odometrysensor.cpp.s
 
 # target to generate assembly for a file
 odometrysensor.cpp.s:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.s
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(MAKE) $(MAKESILENT) -f sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/build.make sensor/sensor_odometry/CMakeFiles/sensor_odometry.dir/odometrysensor.cpp.s
 .PHONY : odometrysensor.cpp.s
 
 # Help Target
@@ -264,6 +264,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

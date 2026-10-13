@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
+CMAKE_BINARY_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping
+CMAKE_BINARY_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping
 
 # Include any dependencies generated for this target.
 include CMakeFiles/slam_gmapping_node.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/slam_gmapping_node.dir/flags.make
 CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o: CMakeFiles/slam_gmapping_node.dir/flags.make
 CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o: rclcpp_components/node_main_slam_gmapping_node.cpp
 CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o: CMakeFiles/slam_gmapping_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o -MF CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o.d -o CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o -c /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/rclcpp_components/node_main_slam_gmapping_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o -MF CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o.d -o CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.o -c /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/rclcpp_components/node_main_slam_gmapping_node.cpp
 
 CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/rclcpp_components/node_main_slam_gmapping_node.cpp > CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/rclcpp_components/node_main_slam_gmapping_node.cpp > CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.i
 
 CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/rclcpp_components/node_main_slam_gmapping_node.cpp -o CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/rclcpp_components/node_main_slam_gmapping_node.cpp -o CMakeFiles/slam_gmapping_node.dir/rclcpp_components/node_main_slam_gmapping_node.cpp.s
 
 # Object files for target slam_gmapping_node
 slam_gmapping_node_OBJECTS = \
@@ -158,7 +158,7 @@ slam_gmapping_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 slam_gmapping_node: /opt/ros/humble/lib/librcutils.so
 slam_gmapping_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 slam_gmapping_node: CMakeFiles/slam_gmapping_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable slam_gmapping_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable slam_gmapping_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/slam_gmapping_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/slam_gmapping_node.dir/clean:
 .PHONY : CMakeFiles/slam_gmapping_node.dir/clean
 
 CMakeFiles/slam_gmapping_node.dir/depend:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles/slam_gmapping_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/slam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/slam_gmapping/CMakeFiles/slam_gmapping_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/slam_gmapping_node.dir/depend
 

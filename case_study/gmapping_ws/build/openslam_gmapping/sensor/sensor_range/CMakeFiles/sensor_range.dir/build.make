@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
+CMAKE_SOURCE_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
+CMAKE_BINARY_DIR = /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping
 
 # Include any dependencies generated for this target.
 include sensor/sensor_range/CMakeFiles/sensor_range.dir/depend.make
@@ -70,32 +70,32 @@ include sensor/sensor_range/CMakeFiles/sensor_range.dir/progress.make
 include sensor/sensor_range/CMakeFiles/sensor_range.dir/flags.make
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o: sensor/sensor_range/CMakeFiles/sensor_range.dir/flags.make
-sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o: /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp
+sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o: /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o: sensor/sensor_range/CMakeFiles/sensor_range.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o -MF CMakeFiles/sensor_range.dir/rangereading.cpp.o.d -o CMakeFiles/sensor_range.dir/rangereading.cpp.o -c /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o"
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.o -MF CMakeFiles/sensor_range.dir/rangereading.cpp.o.d -o CMakeFiles/sensor_range.dir/rangereading.cpp.o -c /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sensor_range.dir/rangereading.cpp.i"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp > CMakeFiles/sensor_range.dir/rangereading.cpp.i
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp > CMakeFiles/sensor_range.dir/rangereading.cpp.i
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangereading.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sensor_range.dir/rangereading.cpp.s"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp -o CMakeFiles/sensor_range.dir/rangereading.cpp.s
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangereading.cpp -o CMakeFiles/sensor_range.dir/rangereading.cpp.s
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o: sensor/sensor_range/CMakeFiles/sensor_range.dir/flags.make
-sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o: /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
+sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o: /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o: sensor/sensor_range/CMakeFiles/sensor_range.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o -MF CMakeFiles/sensor_range.dir/rangesensor.cpp.o.d -o CMakeFiles/sensor_range.dir/rangesensor.cpp.o -c /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o"
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o -MF CMakeFiles/sensor_range.dir/rangesensor.cpp.o.d -o CMakeFiles/sensor_range.dir/rangesensor.cpp.o -c /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sensor_range.dir/rangesensor.cpp.i"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp > CMakeFiles/sensor_range.dir/rangesensor.cpp.i
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp > CMakeFiles/sensor_range.dir/rangesensor.cpp.i
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sensor_range.dir/rangesensor.cpp.s"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp -o CMakeFiles/sensor_range.dir/rangesensor.cpp.s
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range/rangesensor.cpp -o CMakeFiles/sensor_range.dir/rangesensor.cpp.s
 
 # Object files for target sensor_range
 sensor_range_OBJECTS = \
@@ -109,19 +109,19 @@ sensor/sensor_range/libsensor_range.a: sensor/sensor_range/CMakeFiles/sensor_ran
 sensor/sensor_range/libsensor_range.a: sensor/sensor_range/CMakeFiles/sensor_range.dir/rangesensor.cpp.o
 sensor/sensor_range/libsensor_range.a: sensor/sensor_range/CMakeFiles/sensor_range.dir/build.make
 sensor/sensor_range/libsensor_range.a: sensor/sensor_range/CMakeFiles/sensor_range.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsensor_range.a"
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && $(CMAKE_COMMAND) -P CMakeFiles/sensor_range.dir/cmake_clean_target.cmake
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_range.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsensor_range.a"
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && $(CMAKE_COMMAND) -P CMakeFiles/sensor_range.dir/cmake_clean_target.cmake
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sensor_range.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 sensor/sensor_range/CMakeFiles/sensor_range.dir/build: sensor/sensor_range/libsensor_range.a
 .PHONY : sensor/sensor_range/CMakeFiles/sensor_range.dir/build
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/clean:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && $(CMAKE_COMMAND) -P CMakeFiles/sensor_range.dir/cmake_clean.cmake
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range && $(CMAKE_COMMAND) -P CMakeFiles/sensor_range.dir/cmake_clean.cmake
 .PHONY : sensor/sensor_range/CMakeFiles/sensor_range.dir/clean
 
 sensor/sensor_range/CMakeFiles/sensor_range.dir/depend:
-	cd /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range /cdojo/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range/CMakeFiles/sensor_range.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range /home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range/CMakeFiles/sensor_range.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sensor/sensor_range/CMakeFiles/sensor_range.dir/depend
 

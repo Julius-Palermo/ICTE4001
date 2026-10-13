@@ -1,8 +1,8 @@
-# Install script for directory: /cdojo/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range
+# Install script for directory: /home/robotai/ICTE4001/case_study/gmapping_ws/src/slam_gmapping_Humble-eloquent-devel/openslam_gmapping/sensor/sensor_range
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/cdojo/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping")
+  set(CMAKE_INSTALL_PREFIX "/home/robotai/ICTE4001/case_study/gmapping_ws/install/openslam_gmapping")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,9 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/robotai/ICTE4001/case_study/gmapping_ws/build/openslam_gmapping/sensor/sensor_range/libsensor_range.a")
 endif()
 
